@@ -65,8 +65,7 @@ section {
 }
 
 .navbar {
-    margin-left: 600px; /* Coloca os links à direita */
-    /* margin-left: auto; */
+    margin-left: auto;
 }
 
 .navbar a {
@@ -74,7 +73,7 @@ section {
     color: var(--text-color);
     margin-left: 5rem;
     transition: .3s;
-    left: 100;
+    left: 0;
 }
 
 .navbar a:hover,
@@ -215,28 +214,13 @@ span {
     user-select: none;
 }
 
-@keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
-    
-    50% {
-        transform: translateY(-2.4rem);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
-
 .heading {
     text-align: left;
     font-size: 4.5rem;
     color: var(--main-color);
 }
 
-.about-contet h2 {
+.about-content h2 {
     text-align: center;
     line-height: 1.2;
 }
@@ -473,7 +457,7 @@ span {
     color: var(--second-bg-color);
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
@@ -611,4 +595,4 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
-}
+} */
