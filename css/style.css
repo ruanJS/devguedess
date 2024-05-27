@@ -485,7 +485,7 @@ span {
 @media (max-width: 776px) {   
     #menuIcon {
         display: block;
-        margin-left: 40rem; /* Garante que o ícone tenha espaço à esquerda */
+        margin-left: 40rem; 
     }
     
     .navbar {
@@ -504,7 +504,7 @@ span {
 @media (max-width: 768px) {
     #menuIcon {
         display: block;
-        margin-left: 40rem; /* Garante que o ícone tenha espaço à esquerda */
+        margin-left: 40rem; 
     }
     
     .navbar {
@@ -576,7 +576,7 @@ span {
 @media (max-width: 617px) {
     #menuIcon {
         display: block;
-        margin-left: 30rem; /* Garante que o ícone tenha espaço à esquerda */
+        margin-left: 30rem; 
     }
 
     .portfolio-container {
