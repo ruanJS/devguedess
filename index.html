@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,28 @@
     <link rel="shortcut icon" href="./assets/icon_dg.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="description" content="Portfolio de Ruan Guedes, desenvolvedor Fullstack. Conheça meus serviços, projetos e entre em contato para dar vida às suas ideias.">
 </head>
+
 <body>
-    <section class="star-space">
+    <!-- Background stars effect -->
+    <section class="star-space" aria-hidden="true">
         <div id="stars1"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
         <div id="stars4"></div>
-        <div id="stars4"></div>
     </section>
 
+    <!-- Header section -->
     <header class="header">
         <a href="/index.html">
             <div class="home-img-header">
-                <img src="./images/nft_devguedes.png" alt="perfil" width="150" height="150">
+                <img src="./images/nft_devguedes.png" alt="Foto de perfil de Ruan Guedes" width="150" height="150">
             </div>
         </a>
         <a href="#" class="logo">Dev Guedes</a>
         
-        <i class='bx bx-menu' id="menuIcon"></i>
+        <i class='bx bx-menu' id="menuIcon" aria-label="Abrir menu"></i>
         
         <nav class="navbar">
             <a href="#home" class="logo">Home</a>
@@ -36,177 +40,176 @@
         </nav>
     </header>
 
-<section class="home" id="home">
+    <!-- Home section -->
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Olá, eu sou</h3>
             <h1>Ruan <span>Guedes</span></h1>
             <h3>Eu sou Desenvolvedor <span class="multiple-text"></span></h3>
-            <p>Minha paixão pela criação de software vai além de linhas de código. é sobre transformar ideias em realidade e impulsionar mudanças no mundo digital.</p>
-        <div class="social-media">
-            <a href="https://github.com/ruanJS"><i class='bx bxl-github'></i></a>
-            <a href="https://www.instagram.com/devguedess_/"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.linkedin.com/in/ruan-guedes-807578248/"><i class='bx bxl-linkedin' ></i></a>
+            <p>Minha paixão pela criação de software vai além de linhas de código. É sobre transformar ideias em realidade e impulsionar mudanças no mundo digital.</p>
+            <div class="social-media">
+                <a href="https://github.com/ruanJS" aria-label="Github"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/devguedess_/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/ruan-guedes-807578248/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="./components/RUAN GUEDES - CURRICULO PROFISSIONAL.pdf" download class="btn">Download CV</a>
         </div>
-    <a href="./components/Ruan Guedes - Curriculo.pdf" download class="btn">Download CV</a>
-</div>
 
-    <div class="home-img">
-        <img src="./images/nft-afro.jpg" alt="perfil">
-    </div>
+        <div class="home-img">
+            <img src="./images/nft-afro.jpg" alt="Imagem ilustrativa de Ruan Guedes">
+        </div>
+    </section>
 
-</section>
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/nft-afro-costas.jpg" alt="Imagem ilustrativa de Ruan Guedes">
+        </div>
 
-<section class="about" id="about">
-    <div class="about-img">
-        <img src="./images/nft-afro-costas.jpg" alt="perfil">
-    </div>
-
-    <div class="about-content">
-        <h2 class="heading">Sobre <span>mim</span></h2>
-        <h3>Desenvolvedor Fullstack!</h3>
-        <p>Eu sou um desenvolvedor Fullstack, estou comprometido em entregar soluções eficazes e de alta qualidade para atender às necessidades dos clientes. Tenho orgulho de minha capacidade de aprender e me adaptar continuamente a novas tecnologias e metodologias. Estou ansioso para contribuir em projetos emocionantes e fazer a diferença no mundo do desenvolvimento de software. Vamos trabalhar para dar vida às suas ideias!</p>
-        <a href="#" class="btn">Veja mais</a>
-    </div>
-
-</section>
-
-<section class="services" id="services">
-    <h2 class="heading-service">Meus <span>Serviços</span></h2>
-
-    <div class="services-container">
-        <div class="services-box">
-            <i class='bx bx-code-alt'></i>
-            <h3>Desenvolvimento Web</h3>
-            <p>Desenvolvimento de sites e aplicações web responsivas, otimizadas e segura para SEO.</p>
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>mim</span></h2>
+            <h3>Desenvolvedor Fullstack!</h3>
+            <p>Eu sou um desenvolvedor Fullstack, comprometido em entregar soluções eficazes e de alta qualidade para atender às necessidades dos clientes. Tenho orgulho de minha capacidade de aprender e me adaptar continuamente a novas tecnologias e metodologias. Estou ansioso para contribuir em projetos emocionantes e fazer a diferença no mundo do desenvolvimento de software. Vamos trabalhar para dar vida às suas ideias!</p>
             <a href="#" class="btn">Veja mais</a>
         </div>
-        <div class="services-box">
-            <i class='bx bx-mobile'></i>
-            <h3>Desenvolvimento Mobile</h3>
-            <p>Desenvolvimento de aplicativos mobile otimizados e bem estruturados para Android e iOS.</p>
-            <a href="#" class="btn">Veja mais</a>
-        </div>
-        <div class="services-box">
-            <i class='bx bx-paint'></i>
-            <h3>UI/UX Design</h3>
-            <p>Design de interfaces de usuário intuitivas e atraentes para melhor experiencia do usuário.</p>
-            <a href="#" class="btn">Veja mais</a>
-        </div>
-        <div class="services-box">
-            <i class='bx bx-laptop'></i>
-            <h3>Consultoria em TI</h3>
-            <p>Consultoria em tecnologia da informação para pequenas e médias empresas.</p>
-            <a href="#" class="btn">Veja mais</a>
-        </div>
-</section>
+    </section>
 
-<section class="portfolio" id="projects">
-    <h2 class="heading-portfolio">Meus <span>Projetos</span></h2>
+    <!-- Services section -->
+    <section class="services" id="services">
+        <h2 class="heading-service">Meus <span>Serviços</span></h2>
 
-    <div class="portfolio-container">
-        
-        <div class="portfolio-box">
-            <img src="./assets/portfolio-projeto.png" alt="projeto">
-            <div class="portfolio-layer">
-                <h4>Portfolio JavaScript</h4>
-                <p>Portfolio responsivo e animado com JavaScript.</p>
-                <a href="https://ruanguedes-alpha.vercel.app/"><i class='bx bx-link-external'></i></a>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Desenvolvimento de sites e aplicações web responsivas, otimizadas e seguras para SEO.</p>
+                <a href="#" class="btn">Veja mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile'></i>
+                <h3>Desenvolvimento Mobile</h3>
+                <p>Desenvolvimento de aplicativos mobile otimizados e bem estruturados para Android e iOS.</p>
+                <a href="#" class="btn">Veja mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>UI/UX Design</h3>
+                <p>Design de interfaces de usuário intuitivas e atraentes para melhor experiência do usuário.</p>
+                <a href="#" class="btn">Veja mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-laptop'></i>
+                <h3>Consultoria em TI</h3>
+                <p>Consultoria em tecnologia da informação para pequenas e médias empresas.</p>
+                <a href="#" class="btn">Veja mais</a>
             </div>
         </div>
-        
-        <div class="portfolio-box">           
-            <img src="./assets/car-rent-projeto.png" alt="projeto">
-            <div class="portfolio-layer">    
-                <h4>Aluguel de Carros</h4>
-                <p>Site de aluguel de carros responsivo e otimizado para SEO.</p>
-                <a href="https://car-rent-pied.vercel.app/"><i class='bx bx-link-external'></i></a>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio" id="projects">
+        <h2 class="heading-portfolio">Meus <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./assets/portfolio-projeto.png" alt="Imagem do projeto Portfolio JavaScript">
+                <div class="portfolio-layer">
+                    <h4>Portfolio JavaScript</h4>
+                    <p>Portfolio responsivo e animado com JavaScript.</p>
+                    <a href="https://ruanguedes-alpha.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/car-rent-projeto.png" alt="Imagem do projeto Aluguel de Carros">
+                <div class="portfolio-layer">
+                    <h4>Aluguel de Carros</h4>
+                    <p>Site de aluguel de carros responsivo e otimizado para SEO.</p>
+                    <a href="https://car-rent-pied.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/viagens-projeto.png" alt="Imagem do projeto Site de Viagens">
+                <div class="portfolio-layer">
+                    <h4>Site de Viagens</h4>
+                    <p>Site de viagens responsivo e otimizado para SEO.</p>
+                    <a href="https://github.com/ruanJS"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/iphone-14-projeto.png" alt="Imagem do projeto iPhone 14">
+                <div class="portfolio-layer">
+                    <h4>iPhone 14</h4>
+                    <p>Site de lançamento do iPhone 14 responsivo e otimizado para SEO.</p>
+                    <a href="https://ruanjs.github.io/Apple-Iphone-14-WebSite/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/nike-force-projeto.png" alt="Imagem do projeto Nike Airforce">
+                <div class="portfolio-layer">
+                    <h4>Nike Airforce</h4>
+                    <p>Site de lançamento do Nike Airforce responsivo e otimizado para SEO.</p>
+                    <a href="https://ruanjs.github.io/Nike/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/tesla-projeto.png" alt="Imagem do projeto Tesla models">
+                <div class="portfolio-layer">
+                    <h4>Tesla models</h4>
+                    <p>Site de lançamento do Tesla models responsivo e otimizado para SEO.</p>
+                    <a href="https://ruanjs.github.io/Tesla-Ruan/"><i class='bx bx-link-external'></i></a>
+                </div>
             </div>
         </div>
-        
-        <div class="portfolio-box">
-            <img src="./assets/viagens-projeto.png" alt="projeto">
-            <div class="portfolio-layer">
-                <h4>Site de Viagens</h4>
-                <p>Site de viagens responsivo e otimizado para SEO.</p>
-                <a href="https://github.com/ruanJS"><i class='bx bx-link-external'></i></a>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading-contact">Entre em <span>Contato!</span></h2>
+        <p>Estou ansioso para contribuir em projetos emocionantes e fazer a diferença no mundo do desenvolvimento de software. Vamos trabalhar para dar vida às suas ideias!</p>
+
+        <form id="contact-form" class="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Nome completo..." class="box" name="name" required>
+                <input type="email" placeholder="Digite seu Email..." class="box" name="email" required>
             </div>
-        </div>
-        
-        <div class="portfolio-box">           
-            <img src="./assets/iphone-14-projeto.png" alt="projeto">
-            <div class="portfolio-layer">
-                <h4>iPhone 14</h4>
-                <p>Site de lançamento do iPhone 14 responsivo e otimizado para SEO.</p>
-                <a href="https://ruanjs.github.io/Apple-Iphone-14-WebSite/"><i class='bx bx-link-external'></i></a>
+            <div class="input-box">
+                <input type="tel" placeholder="Digite seu número de Telefone..." class="box" name="telefone" required>
+                <input type="text" placeholder="Digite o motivo de contato..." class="box" name="motivo" required>
             </div>
+            <textarea name="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..." class="box" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+
+        <div id="status"></div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 by Devguedes | Todos os direitos reservados.</p>
         </div>
 
-        <div class="portfolio-box">            
-            <img src="./assets/nike-force-projeto.png" alt="projeto">
-            <div class="portfolio-layer">
-                <h4>Nike Airforce</h4>
-                <p>Site de lançamento do Nike Airforce responsivo e otimizado para SEO.</p>
-                <a href="https://ruanjs.github.io/Nike/"><i class='bx bx-link-external'></i></a>
-            </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' aria-label="Voltar ao topo"></i></a>
         </div>
+    </footer>
 
-        <div class="portfolio-box">
-            <img src="./assets/tesla-projeto.png" alt="projeto">
-            <div class="portfolio-layer">
-                <h4>Tesla models</h4>
-                <p>Site de lançamento do Tesla models responsivo e otimizado para SEO.</p>
-                <a href="https://ruanjs.github.io/Tesla-Ruan/"><i class='bx bx-link-external'></i></a>
-            </div>            
-        </div>
-
-    </div>
-</section>
-
-<section class="contact" id="contact">
-    <h2 class="heading-contact">Entre em <span>Contato!</span></h2>
-    <p>Estou ansioso para contribuir em projetos emocionantes e fazer a diferença no mundo do desenvolvimento de software. Vamos trabalhar para dar vida as suas ideias!</p>
-
-    <form id="contact-form" class="contact-form">
-        <div class="input-box">
-            <input type="text" placeholder="Nome completo..." class="box" name="name" required>
-            <input type="email" placeholder="Digite seu Email..." class="box" name="email" required>
-        </div>
-        <div class="input-box">
-            <input type="tel" placeholder="Digite seu número de Telefone..." class="box" name="telefone" required>
-            <input type="text" placeholder="Digite o motivo de contato..." class="box" name="motivo" required>
-        </div>
-        <textarea name="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..." class="box" name="mensagem" required></textarea>
-        <button type="submit" class="btn">Enviar</button>
-    </form>
-
-    <div id="status"></div>
-</section>
-
-<footer class="footer">
-    <div class="footer-text">
-        <p>&copy; 2024 by Devguedes | All Rights Reserved.</p>
-    </div>
-
-    <div class="footer-iconTop">
-        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-    </div>
-</footer>
-
-<!-- Scroll reveal -->
+    <!-- Scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-<!-- Typed js -->
+    <!-- Typed js -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-<!-- Custom js -->
+    <!-- Custom js -->
     <script src="./js/scrollReveal.js"></script>
-
-
-    <script src="js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
-</html>
+</html

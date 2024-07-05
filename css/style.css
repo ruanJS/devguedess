@@ -450,14 +450,23 @@ span {
 }
 
 /* Responsive Media Queries */
+/* Font size adjustments */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
 }
 
+@media (max-width: 617px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* General padding adjustments */
 @media (max-width: 991px) {
-    .header {
+    .header,
+    .footer {
         padding: 2rem 3%;
     }
 
@@ -465,48 +474,28 @@ span {
         padding: 10rem 3% 2rem;
     }
 
-    .services {
+    .services,
+    .portfolio {
         padding-bottom: 7rem;
     }
 
     .contact {
         min-height: auto;
     }
-
-    .portfolio {
-        padding-bottom: 7rem;
-    }
-
-    .footer {
-        padding: 2rem 3%;
-    }
-}    
-
-@media (max-width: 776px) {   
-    #menuIcon {
-        display: block;
-        margin-left: 40rem; 
-    }
-    
-    .navbar {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    }
 }
 
-@media (max-width: 768px) {
+/* Navbar and menu icon adjustments */
+#menuIcon {
+    display: none;
+    margin-left: 0;
+}
+
+@media (max-width: 780px) {
     #menuIcon {
         display: block;
-        margin-left: 40rem; 
+        margin-left: 40rem;
     }
-    
+
     .navbar {
         display: none;
         position: absolute;
@@ -518,7 +507,7 @@ span {
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     }
-    
+
     .navbar.active {
         display: block;
     }
@@ -535,9 +524,9 @@ span {
     }
 
     .home-content p {
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
-    
+
     .home-content h3 {
         font-size: 2.6rem;
     }
@@ -546,8 +535,9 @@ span {
         font-size: 5rem;
     }
 
-    .home-img img {
-        width: 50vw; 
+    .home-img img,
+    .about-img img {
+        width: 50vw;
         margin-top: 4rem;
     }
 
@@ -555,15 +545,7 @@ span {
         flex-direction: column-reverse;
     }
 
-    .about-img img {
-        width: 60vw; 
-        margin-top: 4rem;
-    }
-
-    .services h2 {
-        margin-bottom: 3rem;
-    }
-
+    .services h2,
     .portfolio h2 {
         margin-bottom: 3rem;
     }
@@ -573,10 +555,34 @@ span {
     }
 }
 
-@media (max-width: 617px) {
+/* Menu icon adjustments for specific breakpoints */
+@media (max-width: 776px) {   
     #menuIcon {
-        display: block;
-        margin-left: 30rem; 
+        margin-left: 35rem;
+    }
+}
+
+@media (max-width: 738px) {   
+    #menuIcon {
+        margin-left: 30rem;
+    }
+}
+
+@media (max-width: 678px) {   
+    #menuIcon {
+        margin-left: 27rem;
+    }
+}
+
+@media (max-width: 636px) {   
+    #menuIcon {
+        margin-left: 25rem;
+    }
+}
+
+@media (max-width: 617px) {   
+    #menuIcon {
+        margin-left: 20rem;
     }
 
     .portfolio-container {
@@ -584,9 +590,9 @@ span {
     }
 }
 
-@media (max-width: 450px) {
-    html {
-        font-size: 50%;
+@media (max-width: 550px) {   
+    #menuIcon {
+        margin-left: 18rem;
     }
 
     .contact form .input-box input {
@@ -594,13 +600,32 @@ span {
     }
 }
 
-@media (max-width: 365px) {
-    .home-img img {
-        width: 90vw; 
+@media (max-width: 496px) {   
+    #menuIcon {
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 460px) {   
+    #menuIcon {
+        margin-left: 13rem;
+    }
+}
+
+@media (max-width: 400px) {   
+    #menuIcon {
+        margin-left: 8rem;
+    }
+}
+
+@media (max-width: 365px) {   
+    #menuIcon {
+        margin-left: 5rem;
     }
 
+    .home-img img,
     .about-img img {
-        width: 90vw; 
+        width: 90vw;
     }
 
     .footer {
