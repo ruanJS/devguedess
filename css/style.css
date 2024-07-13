@@ -17,6 +17,7 @@
     --second-bg-color: #2a2c30;
     --text-color: #fff;
     --main-color: rgb(221, 0, 255);
+    --one-color: #fff;
 }
 
 html {
@@ -210,7 +211,7 @@ span {
 }
 
 .about-content h2 {
-    text-align: center;
+    text-align: start;
     line-height: 1.2;
 }
 
@@ -349,6 +350,60 @@ span {
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+
+.languages {
+    background: var(--bg-color);
+    padding: 10rem 9% 2rem;
+}
+
+.languages-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.languages-header h2 {
+    font-size: 5rem;
+    /* color: var(--main-color); */
+    margin-bottom: 2rem;
+}
+
+.languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.language-card {
+    background-color: var(--second-bg-color);
+    border: 0.2rem solid var(--one-color);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 20rem;
+    margin-bottom: 4rem;
+}
+
+.language-card:hover {
+    transform: translateY(-0.3rem);
+}
+
+.language {
+    text-align: center;
+    padding: 2rem;
+}
+
+.language i {
+    font-size: 7rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.language p {
+    font-size: 2rem;
+}
+
 
 .contact {
     background-image: url(../images/outer-space.jpg);
