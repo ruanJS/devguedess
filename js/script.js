@@ -21,15 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
             let id = sec.getAttribute('id');
 
             if (top >= offset && top < offset + height) {
-                navLinks.forEach(links => {
-                    links.classList.remove('active');
-                    document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                navLinks.forEach(link => {
+                    link.classList.remove('active'); // Corrigido para 'link' em vez de 'links'
                 });
+                document.querySelector('header nav a[href*="' + id + '"]').classList.add('active'); // Corrigido para adicionar aspas em torno do ID
             }
         });
 
-        let header = document.querySelector('header');
-        header.classList.toggle('sticky', window.scrollY > 100);
+        let headerElement = document.querySelector('header');
+        headerElement.classList.toggle('sticky', window.scrollY > 100);
 
         if (window.innerWidth <= 768) {
             menuIcon.classList.remove('bx-x');
@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Inicialização do ScrollReveal
     ScrollReveal({
         reset: true,
         distance: '80px',
@@ -49,11 +50,25 @@ document.addEventListener('DOMContentLoaded', () => {
     ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
     ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
+    // Inicialização do Typed.js
     const typed = new Typed('.multiple-text', {
-        strings: ['Fullstack Developer!', 'Web Designer!', 'Designer UI and UX!'],
+        strings: ['Fullstack Developer!', 'Web Designer!', 'Frontend Developer', 'Backend Developer', 'Designer UI and UX!'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
         loop: true
     });
+
+    // const header = document.querySelector('.header');
+
+    // function handleScroll() {
+    //     if (window.scrollY > 0) {
+    //         header.classList.add('sticky');
+    //     } else {
+    //         header.classList.remove('sticky');
+    //     }
+    // }
+    
+    // window.addEventListener('scroll', handleScroll);
+    
 });
