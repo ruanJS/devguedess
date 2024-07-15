@@ -34,7 +34,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 115vh;
     padding: 10rem 9% 2rem;
 }
 
@@ -50,10 +50,25 @@ section {
     display: flex;
     align-items: center;
     z-index: 100;
+    /* transition: filter 0.3s ease-out;
+    backdrop-filter: blur(5px); */
 }
 
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+/* .header.blur {
+    filter: blur(10px); 
+    transition: filter 0.3s ease-out; 
+}
+
+.header.blur {
+    filter: blur(10px);
+} */
+
+header .logo{
+    cursor: pointer;
 }
 
 .logo {
