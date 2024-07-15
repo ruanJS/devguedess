@@ -1,4 +1,4 @@
-# Ruan Guedes - Fullstack Developer Portfolio
+# Ruan Guedes - Portfolio
 
 ![Captura de tela 2024-07-05 180417](https://github.com/ruanJS/devguedess/assets/125290791/13e183ed-4a93-4560-9321-e1127410563f)
 
