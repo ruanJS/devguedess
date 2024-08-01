@@ -13,12 +13,13 @@
 
 <body>
     <!-- Background stars effect -->
-    <section class="star-space" aria-hidden="true">
+    <div class="star-space" id="stars-space" aria-hidden="true">
+        <div id="stars1"></div>
         <div id="stars1"></div>
         <div id="stars2"></div>
-        <div id="stars3"></div>
         <div id="stars4"></div>
-    </section>
+        <div id="stars3"></div>
+    </div>
 
     <!-- Header section -->
     <header class="header">
@@ -43,31 +44,39 @@
 
     <!-- Home section -->
     <section class="home" id="home">
-        <div class="home-content">
+        <!-- Background stars effect -->
+        <div class="star-space" id="stars-space" aria-hidden="true">
+            <div id="stars1"></div>
+            <div id="stars1"></div>
+            <div id="stars2"></div>
+            <div id="stars4"></div>
+            <div id="stars3"></div>
+        </div>
+        <div class="home-content" data-delay="150">
             <h3>Olá, eu sou</h3>
             <h1>Ruan <span>Guedes</span></h1>
             <h3>Eu sou Desenvolvedor <span class="multiple-text"></span></h3>
             <p>Minha paixão pela criação de software vai além de linhas de código. É sobre transformar ideias em realidade e impulsionar mudanças no mundo digital.</p>
-            <div class="social-media">
+            <div class="social-media" data-delay="200">
                 <a href="https://github.com/ruanJS" aria-label="Github"><i class='bx bxl-github'></i></a>
                 <a href="https://www.instagram.com/devguedess_/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
                 <a href="https://www.linkedin.com/in/ruan-guedes-807578248/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <a href="./components/RUAN GUEDES - CURRICULO PROFISSIONAL.pdf" download class="btn">Download CV</a>
+            <a href="./components/RUAN GUEDES - CURRICULO PROFISSIONAL.pdf" download class="btn" data-delay="250">Download CV</a>
         </div>
 
-        <div class="home-img">
+        <div class="home-img" data-delay="300">
             <img src="./images/nft-afro.jpg" alt="Imagem ilustrativa de Ruan Guedes">
         </div>
     </section>
 
     <!-- About section -->
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-delay="350">
             <img src="./images/nft-afro-costas.jpg" alt="Imagem ilustrativa de Ruan Guedes">
         </div>
 
-        <div class="about-content">
+        <div class="about-content" data-delay="400">
             <h2 class="heading">Sobre <span>mim</span></h2>
             <h3>Desenvolvedor Fullstack!</h3>
             <p>Eu sou um desenvolvedor Fullstack, comprometido em entregar soluções eficazes e de alta qualidade para atender às necessidades dos clientes. Tenho orgulho de minha capacidade de aprender e me adaptar continuamente a novas tecnologias e metodologias. Estou ansioso para contribuir em projetos emocionantes e fazer a diferença no mundo do desenvolvimento de software. Vamos trabalhar para dar vida às suas ideias!</p>
@@ -80,37 +89,37 @@
         <h2 class="heading-service">Meus <span>Serviços</span></h2>
 
         <div class="services-container">
-            <div class="services-box">
+            <div class="services-box" data-delay="500">
                 <i class='bx bx-code-alt'></i>
                 <h3>Desenvolvimento Web</h3>
                 <p>Desenvolvimento de sites e aplicações web responsivas, otimizadas e seguras para SEO.</p>
                 <a href="#projects" class="btn">Veja mais</a>
             </div>
-            <div class="services-box">
+            <div class="services-box" data-delay="550">
                 <i class='bx bx-mobile-alt'></i>
                 <h3>Desenvolvimento Mobile</h3>
                 <p>Desenvolvimento de aplicativos mobile otimizados e bem estruturados para Android e iOS.</p>
                 <a href="#projects" class="btn">Veja mais</a>
             </div>
-            <div class="services-box">
+            <div class="services-box" data-delay="600">
                 <i class='bx bx-paint'></i>
                 <h3>UI/UX Design</h3>
                 <p>Design de interfaces de usuário intuitivas e atraentes para melhor experiência do usuário.</p>
                 <a href="#projects" class="btn">Veja mais</a>
             </div>
-            <div class="services-box">
+            <div class="services-box" data-delay="650">
                 <i class='bx bx-laptop'></i>
                 <h3>Consultoria em TI</h3>
                 <p>Consultoria em tecnologia da informação para pequenas e médias empresas.</p>
                 <a href="#projects" class="btn">Veja mais</a>
             </div>
-            <div class="services-box">
+            <div class="services-box" data-delay="700">
                 <i class='bx bx-terminal' ></i>
                 <h3>Desenvolvimento Backend</h3>
                 <p>Desenvolvimento de APIs e sistemas robustos e escaláveis para atender às necessidades do seu negócio.</p>
                 <a href="#projects" class="btn">Veja mais</a>
             </div>
-            <div class="services-box">
+            <div class="services-box" data-delay="750">
                 <i class='bx bx-data'></i>
                 <h3>Desenvolvimento de Banco de Dados</h3>
                 <p>Desenvolvimento de bancos de dados eficientes e seguros para armazenar e gerenciar dados de forma eficaz.</p>
@@ -123,7 +132,7 @@
         <h2 class="heading-portfolio">Meus <span>Projetos</span></h2>
 
         <div class="portfolio-container">
-            <div class="portfolio-box">
+            <div class="portfolio-box" data-delay="800">
                 <img src="./assets/portfolio-projeto.png" alt="Imagem do projeto Portfolio JavaScript">
                 <div class="portfolio-layer">
                     <h4>Portfolio JavaScript</h4>
@@ -132,7 +141,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
+            <div class="portfolio-box" data-delay="850">
                 <img src="./assets/car-rent-projeto.png" alt="Imagem do projeto Aluguel de Carros">
                 <div class="portfolio-layer">
                     <h4>Aluguel de Carros</h4>
@@ -141,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
+            <div class="portfolio-box" data-delay="900">
                 <img src="./assets/viagens-projeto.png" alt="Imagem do projeto Site de Viagens">
                 <div class="portfolio-layer">
                     <h4>Site de Viagens</h4>
@@ -150,7 +159,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
+            <div class="portfolio-box" data-delay=950>
                 <img src="./assets/iphone-14-projeto.png" alt="Imagem do projeto iPhone 14">
                 <div class="portfolio-layer">
                     <h4>iPhone 14</h4>
@@ -159,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
+            <div class="portfolio-box" data-delay="1000">
                 <img src="./assets/nike-force-projeto.png" alt="Imagem do projeto Nike Airforce">
                 <div class="portfolio-layer">
                     <h4>Nike Airforce</h4>
@@ -168,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
+            <div class="portfolio-box" data-delay="1050">
                 <img src="./assets/tesla-projeto.png" alt="Imagem do projeto Tesla models">
                 <div class="portfolio-layer">
                     <h4>Tesla models</h4>
@@ -179,7 +188,15 @@
         </div>
     </section>
 
+    <div class="star-space" id="stars-space" aria-hidden="true">
+        <div id="stars1"></div>
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars4"></div>
+        <div id="stars3"></div>
+    </div>
     <section id="languages" class="languages">
+        
         <div class="languages-header">
             <h2>Linguagens <span>de Programação</span></h2>
         </div>
@@ -312,8 +329,9 @@
     <!-- Custom js -->
     <script src="./js/scrollReveal.js" defer></script>
     <script src="./js/script.js" defer></script>
-    <script src="https://cdn.emailjs.com/dist/email.min.js" defer></script>
-    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>

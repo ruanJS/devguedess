@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .star-space {
+    width: 100%;
     z-index: -5;
     position: absolute;
 }
@@ -16,183 +16,919 @@
     border-radius: 100%;
     background: transparent;
     animation: animStar 50s linear infinite alternate;
-    box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
-    1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
-    36px 1546px #fff, 132px 934px #fff, 1698px 901px #fff, 1418px 664px #fff,
-    1448px 1157px #fff, 1084px 232px #fff, 347px 1776px #fff, 1722px 243px #fff,
-    1629px 835px #fff, 479px 969px #fff, 1231px 960px #fff, 586px 384px #fff,
-    164px 527px #fff, 8px 646px #fff, 1150px 1126px #fff, 665px 1357px #fff,
-    1556px 1982px #fff, 1260px 1961px #fff, 1675px 1741px #fff,
-    1843px 1514px #fff, 718px 1628px #fff, 242px 1343px #fff, 1497px 1880px #fff,
-    1364px 230px #fff, 1739px 1302px #fff, 636px 959px #fff, 304px 686px #fff,
-    614px 751px #fff, 1935px 816px #fff, 1428px 60px #fff, 355px 335px #fff,
-    1594px 158px #fff, 90px 60px #fff, 1553px 162px #fff, 1239px 1825px #fff,
-    1945px 587px #fff, 749px 1785px #fff, 1987px 1172px #fff, 1301px 1237px #fff,
-    1039px 342px #fff, 1585px 1481px #fff, 995px 1048px #fff, 524px 932px #fff,
-    214px 413px #fff, 1701px 1300px #fff, 1037px 1613px #fff, 1871px 996px #fff,
-    1360px 1635px #fff, 1110px 1313px #fff, 412px 1783px #fff, 1949px 177px #fff,
-    903px 1854px #fff, 700px 1936px #fff, 378px 125px #fff, 308px 834px #fff,
-    1118px 962px #fff, 1350px 1929px #fff, 781px 1811px #fff, 561px 137px #fff,
-    757px 1148px #fff, 1670px 1979px #fff, 343px 739px #fff, 945px 795px #fff,
-    576px 1903px #fff, 1078px 1436px #fff, 1583px 450px #fff, 1366px 474px #fff,
-    297px 1873px #fff, 192px 162px #fff, 1624px 1633px #fff, 59px 453px #fff,
-    82px 1872px #fff, 1933px 498px #fff, 1966px 1974px #fff, 1975px 1688px #fff,
-    779px 314px #fff, 1858px 1543px #fff, 73px 1507px #fff, 1693px 975px #fff,
-    1683px 108px #fff, 1768px 1654px #fff, 654px 14px #fff, 494px 171px #fff,
-    1689px 1895px #fff, 1660px 263px #fff, 1031px 903px #fff, 1203px 1393px #fff,
-    1333px 1421px #fff, 1113px 41px #fff, 1206px 1645px #fff, 1325px 1635px #fff,
-    142px 388px #fff, 572px 215px #fff, 1535px 296px #fff, 1419px 407px #fff,
-    1379px 1003px #fff, 329px 469px #fff, 1791px 1652px #fff, 935px 1802px #fff,
-    1330px 1820px #fff, 421px 1933px #fff, 828px 365px #fff, 275px 316px #fff,
-    707px 960px #fff, 1605px 1554px #fff, 625px 58px #fff, 717px 1697px #fff,
-    1669px 246px #fff, 1925px 322px #fff, 1154px 1803px #fff, 1929px 295px #fff,
-    1248px 240px #fff, 1045px 1755px #fff, 166px 942px #fff, 1888px 1773px #fff,
-    678px 1963px #fff, 1370px 569px #fff, 1974px 1400px #fff, 1786px 460px #fff,
-    51px 307px #fff, 784px 1400px #fff, 730px 1258px #fff, 1712px 393px #fff,
-    416px 170px #fff, 1797px 1932px #fff, 572px 219px #fff, 1557px 1856px #fff,
-    218px 8px #fff, 348px 1334px #fff, 469px 413px #fff, 385px 1738px #fff,
-    1357px 1818px #fff, 240px 942px #fff, 248px 1847px #fff, 1535px 806px #fff,
-    236px 1514px #fff, 1429px 1556px #fff, 73px 1633px #fff, 1398px 1121px #fff,
-    671px 1301px #fff, 1404px 1663px #fff, 740px 1018px #fff, 1600px 377px #fff,
-    785px 514px #fff, 112px 1084px #fff, 1915px 1887px #fff, 1463px 1848px #fff,
-    687px 1115px #fff, 1268px 1768px #fff, 1729px 1425px #fff,
-    1284px 1022px #fff, 801px 974px #fff, 1975px 1317px #fff, 1354px 834px #fff,
-    1446px 1484px #fff, 1283px 1786px #fff, 11px 523px #fff, 1842px 236px #fff,
-    1355px 654px #fff, 429px 7px #fff, 1033px 1128px #fff, 157px 297px #fff,
-    545px 635px #fff, 52px 1080px #fff, 827px 1520px #fff, 1121px 490px #fff,
-    9px 309px #fff, 1744px 1586px #fff, 1014px 417px #fff, 1534px 524px #fff,
-    958px 552px #fff, 1403px 1496px #fff, 387px 703px #fff, 1522px 548px #fff,
-    1355px 282px #fff, 1532px 601px #fff, 1838px 790px #fff, 290px 259px #fff,
-    295px 598px #fff, 1601px 539px #fff, 1561px 1272px #fff, 34px 1922px #fff,
-    1024px 543px #fff, 467px 369px #fff, 722px 333px #fff, 1976px 1255px #fff,
-    766px 983px #fff, 1582px 1285px #fff, 12px 512px #fff, 617px 1410px #fff,
-    682px 577px #fff, 1334px 1438px #fff, 439px 327px #fff, 1617px 1661px #fff,
-    673px 129px #fff, 794px 941px #fff, 1386px 1902px #fff, 37px 1353px #fff,
-    1467px 1353px #fff, 416px 18px #fff, 187px 344px #fff, 200px 1898px #fff,
-    1491px 1619px #fff, 811px 347px #fff, 924px 1827px #fff, 945px 217px #fff,
-    1735px 1228px #fff, 379px 1890px #fff, 79px 761px #fff, 825px 1837px #fff,
-    1980px 1558px #fff, 1308px 1573px #fff, 1488px 1726px #fff,
-    382px 1208px #fff, 522px 595px #fff, 1277px 1898px #fff, 354px 552px #fff,
-    161px 1784px #fff, 614px 251px #fff, 526px 1576px #fff, 17px 212px #fff,
-    179px 996px #fff, 467px 1208px #fff, 1944px 1838px #fff, 1140px 1093px #fff,
-    858px 1007px #fff, 200px 1064px #fff, 423px 1964px #fff, 1945px 439px #fff,
-    1377px 689px #fff, 1120px 1437px #fff, 1876px 668px #fff, 907px 1324px #fff,
-    343px 1976px #fff, 1816px 1501px #fff, 1849px 177px #fff, 647px 91px #fff,
-    1984px 1012px #fff, 1336px 1300px #fff, 128px 648px #fff, 305px 1060px #fff,
-    1324px 826px #fff, 1263px 1314px #fff, 1801px 629px #fff, 1614px 1555px #fff,
-    1634px 90px #fff, 1603px 452px #fff, 891px 1984px #fff, 1556px 1906px #fff,
-    121px 68px #fff, 1676px 1714px #fff, 516px 936px #fff, 1947px 1492px #fff,
-    1455px 1519px #fff, 45px 602px #fff, 205px 1039px #fff, 793px 172px #fff,
-    1562px 1739px #fff, 1056px 110px #fff, 1512px 379px #fff, 1795px 1621px #fff,
-    1848px 607px #fff, 262px 1719px #fff, 477px 991px #fff, 483px 883px #fff,
-    1239px 1197px #fff, 1496px 647px #fff, 1649px 25px #fff, 1491px 1946px #fff,
-    119px 996px #fff, 179px 1472px #fff, 1341px 808px #fff, 1565px 1700px #fff,
-    407px 1544px #fff, 1754px 357px #fff, 1288px 981px #fff, 902px 1997px #fff,
-    1755px 1668px #fff, 186px 877px #fff, 1202px 1882px #fff, 461px 1213px #fff,
-    1400px 748px #fff, 1969px 1899px #fff, 809px 522px #fff, 514px 1219px #fff,
-    374px 275px #fff, 938px 1973px #fff, 357px 552px #fff, 144px 1722px #fff,
-    1572px 912px #fff, 402px 1858px #fff, 1544px 1195px #fff, 667px 1257px #fff,
-    727px 1496px #fff, 993px 232px #fff, 1772px 313px #fff, 1040px 1590px #fff,
-    1204px 1973px #fff, 1268px 79px #fff, 1555px 1048px #fff, 986px 1707px #fff,
-    978px 1710px #fff, 713px 360px #fff, 407px 863px #fff, 461px 736px #fff,
-    284px 1608px #fff, 103px 430px #fff, 1283px 1319px #fff, 977px 1186px #fff,
-    1966px 1516px #fff, 1287px 1129px #fff, 70px 1098px #fff, 1189px 889px #fff,
-    1126px 1734px #fff, 309px 1292px #fff, 879px 764px #fff, 65px 473px #fff,
-    1003px 1959px #fff, 658px 791px #fff, 402px 1576px #fff, 35px 622px #fff,
-    529px 1589px #fff, 164px 666px #fff, 1876px 1290px #fff, 1541px 526px #fff,
-    270px 1297px #fff, 440px 865px #fff, 1500px 802px #fff, 182px 1754px #fff,
-    1264px 892px #fff, 272px 1249px #fff, 1289px 1535px #fff, 190px 1646px #fff,
-    955px 242px #fff, 1456px 1597px #fff, 1727px 1983px #fff, 635px 801px #fff,
-    226px 455px #fff, 1396px 1710px #fff, 849px 1863px #fff, 237px 1264px #fff,
-    839px 140px #fff, 1122px 735px #fff, 1280px 15px #fff, 1318px 242px #fff,
-    1819px 1148px #fff, 333px 1392px #fff, 1949px 553px #fff, 1878px 1332px #fff,
-    467px 548px #fff, 1812px 1082px #fff, 1067px 193px #fff, 243px 156px #fff,
-    483px 1616px #fff, 1714px 933px #fff, 759px 1800px #fff, 1822px 995px #fff,
-    1877px 572px #fff, 581px 1084px #fff, 107px 732px #fff, 642px 1837px #fff,
-    166px 1493px #fff, 1555px 198px #fff, 819px 307px #fff, 947px 345px #fff,
-    827px 224px #fff, 927px 1394px #fff, 540px 467px #fff, 1093px 405px #fff,
-    1140px 927px #fff, 130px 529px #fff, 33px 1980px #fff, 1147px 1663px #fff,
-    1616px 1436px #fff, 528px 710px #fff, 798px 1100px #fff, 505px 1480px #fff,
-    899px 641px #fff, 1909px 1949px #fff, 1311px 964px #fff, 979px 1301px #fff,
-    1393px 969px #fff, 1793px 1886px #fff, 292px 357px #fff, 1196px 1718px #fff,
-    1290px 1994px #fff, 537px 1973px #fff, 1181px 1674px #fff,
-    1740px 1566px #fff, 1307px 265px #fff, 922px 522px #fff, 1892px 472px #fff,
-    384px 1746px #fff, 392px 1098px #fff, 647px 548px #fff, 390px 1498px #fff,
-    1246px 138px #fff, 730px 876px #fff, 192px 1472px #fff, 1790px 1789px #fff,
-    928px 311px #fff, 1253px 1647px #fff, 747px 1921px #fff, 1561px 1025px #fff,
-    1533px 1292px #fff, 1985px 195px #fff, 728px 729px #fff, 1712px 1936px #fff,
-    512px 1717px #fff, 1528px 483px #fff, 313px 1642px #fff, 281px 1849px #fff,
-    1212px 799px #fff, 435px 1191px #fff, 1422px 611px #fff, 1718px 1964px #fff,
-    411px 944px #fff, 210px 636px #fff, 1502px 1295px #fff, 1434px 349px #fff,
-    769px 60px #fff, 747px 1053px #fff, 789px 504px #fff, 1436px 1264px #fff,
-    1893px 1225px #fff, 1394px 1788px #fff, 1108px 1317px #fff,
-    1673px 1395px #fff, 854px 1010px #fff, 1705px 80px #fff, 1858px 148px #fff,
-    1729px 344px #fff, 1388px 664px #fff, 895px 406px #fff, 1479px 157px #fff,
-    1441px 1157px #fff, 552px 1900px #fff, 516px 364px #fff, 1647px 189px #fff,
-    1427px 1071px #fff, 785px 729px #fff, 1080px 1710px #fff, 504px 204px #fff,
-    1177px 1622px #fff, 657px 34px #fff, 1296px 1099px #fff, 248px 180px #fff,
-    1212px 1568px #fff, 667px 1562px #fff, 695px 841px #fff, 1608px 1247px #fff,
-    751px 882px #fff, 87px 167px #fff, 607px 1368px #fff, 1363px 1203px #fff,
-    1836px 317px #fff, 1668px 1703px #fff, 830px 1154px #fff, 1721px 1398px #fff,
-    1601px 1280px #fff, 976px 874px #fff, 1743px 254px #fff, 1020px 1815px #fff,
-    1670px 1766px #fff, 1890px 735px #fff, 1379px 136px #fff, 1864px 695px #fff,
-    206px 965px #fff, 1404px 1932px #fff, 1923px 1360px #fff, 247px 682px #fff,
-    519px 1708px #fff, 645px 750px #fff, 1164px 1204px #fff, 834px 323px #fff,
-    172px 1350px #fff, 213px 972px #fff, 1837px 190px #fff, 285px 1806px #fff,
-    1047px 1299px #fff, 1548px 825px #fff, 1730px 324px #fff, 1346px 1909px #fff,
-    772px 270px #fff, 345px 1190px #fff, 478px 1433px #fff, 1479px 25px #fff,
-    1994px 1830px #fff, 1744px 732px #fff, 20px 1635px #fff, 690px 1795px #fff,
-    1594px 569px #fff, 579px 245px #fff, 1398px 733px #fff, 408px 1352px #fff,
-    1774px 120px #fff, 1152px 1370px #fff, 1698px 1810px #fff, 710px 1450px #fff,
-    665px 286px #fff, 493px 1720px #fff, 786px 5px #fff, 637px 1140px #fff,
-    764px 324px #fff, 927px 310px #fff, 938px 1424px #fff, 1884px 744px #fff,
-    913px 462px #fff, 1831px 1936px #fff, 1527px 249px #fff, 36px 1381px #fff,
-    1597px 581px #fff, 1530px 355px #fff, 949px 459px #fff, 799px 828px #fff,
-    242px 1471px #fff, 654px 797px #fff, 796px 594px #fff, 1365px 678px #fff,
-    752px 23px #fff, 1630px 541px #fff, 982px 72px #fff, 1733px 1831px #fff,
-    21px 412px #fff, 775px 998px #fff, 335px 1945px #fff, 264px 583px #fff,
-    158px 1311px #fff, 528px 164px #fff, 1978px 574px #fff, 717px 1203px #fff,
-    734px 1591px #fff, 1555px 820px #fff, 16px 1943px #fff, 1625px 1177px #fff,
-    1236px 690px #fff, 1585px 1590px #fff, 1737px 1728px #fff, 721px 698px #fff,
-    1804px 1186px #fff, 166px 980px #fff, 1850px 230px #fff, 330px 1712px #fff,
-    95px 797px #fff, 1948px 1078px #fff, 469px 939px #fff, 1269px 1899px #fff,
-    955px 1220px #fff, 1137px 1075px #fff, 312px 1293px #fff, 986px 1762px #fff,
-    1103px 1238px #fff, 428px 1993px #fff, 355px 570px #fff, 977px 1836px #fff,
-    1395px 1092px #fff, 276px 913px #fff, 1743px 656px #fff, 773px 502px #fff,
-    1686px 1322px #fff, 1516px 1945px #fff, 1334px 501px #fff, 266px 156px #fff,
-    455px 655px #fff, 798px 72px #fff, 1059px 1259px #fff, 1402px 1687px #fff,
-    236px 1329px #fff, 1455px 786px #fff, 146px 1228px #fff, 1851px 823px #fff,
-    1062px 100px #fff, 1220px 953px #fff, 20px 1826px #fff, 36px 1063px #fff,
-    1525px 338px #fff, 790px 1521px #fff, 741px 1099px #fff, 288px 1489px #fff,
-    700px 1060px #fff, 390px 1071px #fff, 411px 1036px #fff, 1853px 1072px #fff,
-    1446px 1085px #fff, 1164px 874px #fff, 924px 925px #fff, 291px 271px #fff,
-    1257px 1964px #fff, 1580px 1352px #fff, 1507px 1216px #fff, 211px 956px #fff,
-    985px 1195px #fff, 975px 1640px #fff, 518px 101px #fff, 663px 1395px #fff,
-    914px 532px #fff, 145px 1320px #fff, 69px 1397px #fff, 982px 523px #fff,
-    257px 725px #fff, 1599px 831px #fff, 1636px 1513px #fff, 1250px 1158px #fff,
-    1132px 604px #fff, 183px 102px #fff, 1057px 318px #fff, 1247px 1835px #fff,
-    1983px 1110px #fff, 1077px 1455px #fff, 921px 1770px #fff, 806px 1350px #fff,
-    1938px 1992px #fff, 855px 1260px #fff, 902px 1345px #fff, 658px 1908px #fff,
-    1845px 679px #fff, 712px 1482px #fff, 595px 950px #fff, 1784px 1992px #fff,
-    1847px 1785px #fff, 691px 1004px #fff, 175px 1179px #fff, 1666px 1911px #fff,
-    41px 61px #fff, 971px 1080px #fff, 1830px 1450px #fff, 1351px 1518px #fff,
-    1257px 99px #fff, 1395px 1498px #fff, 1117px 252px #fff, 1779px 597px #fff,
-    1346px 729px #fff, 1108px 1144px #fff, 402px 691px #fff, 72px 496px #fff,
-    1673px 1604px #fff, 1497px 974px #fff, 1865px 1664px #fff, 88px 806px #fff,
-    918px 77px #fff, 244px 1118px #fff, 256px 1820px #fff, 1851px 1840px #fff,
-    605px 1851px #fff, 634px 383px #fff, 865px 37px #fff, 943px 1024px #fff,
-    1951px 177px #fff, 1097px 523px #fff, 985px 1700px #fff, 1243px 122px #fff,
-    768px 1070px #fff, 468px 194px #fff, 320px 1867px #fff, 1850px 185px #fff,
-    380px 1616px #fff, 468px 1294px #fff, 1122px 1743px #fff, 884px 299px #fff,
-    1300px 1917px #fff, 1860px 396px #fff, 1270px 990px #fff, 529px 733px #fff,
-    1975px 1347px #fff, 1885px 685px #fff, 226px 506px #fff, 651px 878px #fff,
-    1323px 680px #fff, 1284px 680px #fff, 238px 1967px #fff, 911px 174px #fff,
-    1111px 521px #fff, 1150px 85px #fff, 794px 502px #fff, 484px 1856px #fff,
-    1809px 368px #fff, 112px 953px #fff, 590px 1009px #fff, 1655px 311px #fff,
-    100px 1026px #fff, 1803px 352px #fff, 865px 306px #fff, 1077px 1019px #fff,
-    1335px 872px #fff, 1647px 1298px #fff, 1233px 1387px #fff, 698px 1036px #fff,
-    659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
-    696px 1654px #fff, 1144px 60px #fff;
+    box-shadow:  779px 1331px #f0e68c,  /* Star Yellow */
+    324px 42px #ffffff,    /* Bright White */
+    303px 586px #f4a460,   /* Sandy Brown */
+    1312px 276px #ffa07a,  /* Light Salmon */
+    451px 625px #e0ffff,   /* Light Cyan */
+    521px 1931px #f08080,  /* Light Coral */
+    1087px 1871px #d8bfd8, /* Thistle */
+    36px 1546px #ffb6c1,   /* Light Pink */
+    132px 934px #add8e6,   /* Light Blue */
+    1698px 901px #b0e0e6,  /* Powder Blue */
+    1418px 664px #ffe4e1,  /* Misty Rose */
+    1448px 1157px #ff69b4, /* Hot Pink */
+    1084px 232px #dcdcdc,  /* Gainsboro */
+    347px 1776px #ffdead,  /* Navajo White */
+    1722px 243px #ffe4b5,  /* Lemon Chiffon */
+    1629px 835px #ff7f50,  /* Coral */
+    479px 969px #98fb98,   /* Pale Green */
+    1231px 960px #ffa07a,  /* Light Salmon */
+    586px 384px #fffaf0,   /* Floral White */
+    164px 527px #b0e0e6,   /* Powder Blue */
+    8px 646px #d8bfd8,     /* Thistle */
+    1150px 1126px #f0e68c, /* Star Yellow */
+    665px 1357px #ffe4e1,  /* Misty Rose */
+    1556px 1982px #ffb6c1, /* Light Pink */
+    1260px 1961px #ffffff,  /* Bright White */
+    1675px 1741px #dcdcdc,  /* Gainsboro */
+    1843px 1514px #f4a460,  /* Sandy Brown */
+    718px 1628px #ffe4b5,   /* Lemon Chiffon */
+    242px 1343px #add8e6,   /* Light Blue */
+    1497px 1880px #f08080,  /* Light Coral */
+    1364px 230px #b0e0e6,   /* Powder Blue */
+    1739px 1302px #ff69b4,  /* Hot Pink */
+    636px 959px #f0e68c,    /* Star Yellow */
+    304px 686px #ffb6c1,    /* Light Pink */
+    614px 751px #f4a460,     /* Sandy Brown */
+    1935px 816px #d8bfd8,    /* Thistle */
+    1428px 60px #ffdead,     /* Navajo White */
+    355px 335px #ffe4b5,     /* Lemon Chiffon */
+    1594px 158px #98fb98,     /* Pale Green */
+    90px 60px #f08080,        /* Light Coral */
+    1553px 162px #add8e6,     /* Light Blue */
+    1239px 1825px #ffb6c1,    /* Light Pink */
+    1945px 587px #ff7f50,      /* Coral */
+    749px 1785px #f0e68c,      /* Star Yellow */
+    1987px 1172px #ffe4e1,     /* Misty Rose */
+    1301px 1237px #dcdcdc,     /* Gainsboro */
+    1039px 342px #f4a460,      /* Sandy Brown */
+    1585px 1481px #ffffff,      /* Bright White */
+    995px 1048px #f08080,       /* Light Coral */
+    524px 932px #d8bfd8,        /* Thistle */
+    214px 413px #f4a460,        /* Sandy Brown */
+    1701px 1300px #ffb6c1,      /* Light Pink */
+    1037px 1613px #f0e68c,      /* Star Yellow */
+    1871px 996px #f4a460,       /* Sandy Brown */
+    1360px 1635px #ffa07a,      /* Light Salmon */
+    1110px 1313px #ff69b4,      /* Hot Pink */
+    412px 1783px #add8e6,       /* Light Blue */
+    1949px 177px #b0e0e6,       /* Powder Blue */
+    903px 1854px #ffffff,       /* Bright White */
+    700px 1936px #dcdcdc,       /* Gainsboro */
+    378px 125px #f08080,        /* Light Coral */
+    308px 834px #f4a460,        /* Sandy Brown */
+    1118px 962px #f0e68c,      /* Star Yellow */
+    1350px 1929px #ffe4e1,      /* Misty Rose */
+    781px 1811px #ffdead,       /* Navajo White */
+    561px 137px #ffb6c1,       /* Light Pink */
+    757px 1148px #ff7f50,      /* Coral */
+    1670px 1979px #ffffff,     /* Bright White */
+    343px 739px #d8bfd8,       /* Thistle */
+    945px 795px #e0ffff,       /* Light Cyan */
+    576px 1903px #f0e68c,      /* Star Yellow */
+    1078px 1436px #ff69b4,     /* Hot Pink */
+    1583px 450px #f08080,      /* Light Coral */
+    1366px 474px #b0e0e6,      /* Powder Blue */
+    297px 1873px #ffe4b5,      /* Lemon Chiffon */
+    192px 162px #ffdead,       /* Navajo White */
+    1624px 1633px #f4a460,      /* Sandy Brown */
+    59px 453px #add8e6,        /* Light Blue */
+    82px 1872px #ffb6c1,       /* Light Pink */
+    1933px 498px #dcdcdc,      /* Gainsboro */
+    1966px 1974px #ffffff,     /* Bright White */
+    1975px 1688px #f08080,     /* Light Coral */
+    779px 314px #d8bfd8,       /* Thistle */
+    1858px 1543px #f4a460,     /* Sandy Brown */
+    73px 1507px #ffdead,       /* Navajo White */
+    1693px 975px #f0e68c,      /* Star Yellow */
+    1683px 108px #f4a460,      /* Sandy Brown */
+    1768px 1654px #ffb6c1,     /* Light Pink */
+    654px 14px #e0ffff,        /* Light Cyan */
+    494px 171px #dcdcdc,       /* Gainsboro */
+    1689px 1895px #f08080,     /* Light Coral */
+    1660px 263px #ff69b4,      /* Hot Pink */
+    1031px 903px #ffdead,      /* Navajo White */
+    1203px 1393px #f0e68c,     /* Star Yellow */
+    1333px 1421px #ff7f50,     /* Coral */
+    1113px 41px #d8bfd8,       /* Thistle */
+    1206px 1645px #f4a460,     /* Sandy Brown */
+    1325px 1635px #ffffff,     /* Bright White */
+    142px 388px #add8e6,       /* Light Blue */
+    572px 215px #f0e68c,       /* Star Yellow */
+    1535px 296px #f08080,      /* Light Coral */
+    1419px 407px #dcdcdc,      /* Gainsboro */
+    1379px 1003px #f4a460,     /* Sandy Brown */
+    329px 469px #ffdead,       /* Navajo White */
+    704px 258px #ff69b4,       /* Hot Pink */
+    1995px 699px #ffffff,      /* Bright White */
+    78px 763px #b0e0e6,        /* Powder Blue */
+    960px 718px #ffe4b5,       /* Lemon Chiffon */
+    1682px 1289px #f4a460,     /* Sandy Brown */
+    1995px 1270px #f0e68c,     /* Star Yellow */
+    233px 1764px #f08080,      /* Light Coral */
+    1449px 314px #add8e6,      /* Light Blue */
+    201px 1751px #ffdead,      /* Navajo White */
+    682px 931px #dcdcdc,       /* Gainsboro */
+    1588px 1145px #ffb6c1,     /* Light Pink */
+    1676px 574px #ff7f50,      /* Coral */
+    1062px 524px #e0ffff,      /* Light Cyan */
+    1475px 1955px #ffffff,     /* Bright White */
+    1320px 80px #b0e0e6,       /* Powder Blue */
+    1407px 919px #f4a460,      /* Sandy Brown */
+    1622px 222px #f0e68c,      /* Star Yellow */
+    453px 1215px #d8bfd8,      /* Thistle */
+    693px 265px #ffdead,       /* Navajo White */
+    1496px 949px #add8e6,      /* Light Blue */
+    1190px 1033px #f08080,     /* Light Coral */
+    532px 1756px #ff69b4,      /* Hot Pink */
+    1045px 1492px #dcdcdc,     /* Gainsboro */
+    1672px 1027px #f4a460,     /* Sandy Brown */
+    963px 1410px #ffffff,      /* Bright White */
+    985px 1207px #f4a460,      /* Sandy Brown */
+    1624px 209px #b0e0e6,      /* Powder Blue */
+    1779px 1101px #ff7f50,     /* Coral */
+    1152px 415px #ffdead,      /* Navajo White */
+    883px 1443px #dcdcdc,      /* Gainsboro */
+    576px 254px #f08080,       /* Light Coral */
+    1166px 1117px #add8e6,     /* Light Blue */
+    892px 1401px #f0e68c,      /* Star Yellow */
+    722px 486px #f4a460,       /* Sandy Brown */
+    1793px 1131px #ffffff,     /* Bright White */
+    1440px 1896px #e0ffff,     /* Light Cyan */
+    639px 946px #f4a460,       /* Sandy Brown */
+    1831px 917px #f0e68c,      /* Star Yellow */
+    731px 1770px #ffdead,      /* Navajo White */
+    1693px 271px #d8bfd8,      /* Thistle */
+    1137px 899px #ff69b4,      /* Hot Pink */
+    1131px 779px #ffffff,      /* Bright White */
+    832px 1335px #f08080,      /* Light Coral */
+    1603px 851px #f4a460,      /* Sandy Brown */
+    1205px 1312px #ffb6c1,     /* Light Pink */
+    756px 1301px #b0e0e6,      /* Powder Blue */
+    254px 1465px #f0e68c,      /* Star Yellow */
+    897px 1535px #ffdead,      /* Navajo White */
+    315px 1154px #add8e6,      /* Light Blue */
+    1943px 1759px #ff7f50,     /* Coral */
+    54px 1248px #dcdcdc,       /* Gainsboro */
+    408px 246px #f08080,       /* Light Coral */
+    1268px 1487px #f4a460,     /* Sandy Brown */
+    934px 1386px #ffffff,      /* Bright White */
+    1088px 1270px #ffb6c1,     /* Light Pink */
+    613px 353px #e0ffff,       /* Light Cyan */
+    1074px 732px #ffdead,      /* Navajo White */
+    486px 1066px #f0e68c,      /* Star Yellow */
+    206px 1756px #add8e6,      /* Light Blue */
+    1413px 420px #ff69b4,      /* Hot Pink */
+    1625px 64px #dcdcdc,       /* Gainsboro */
+    1646px 1677px #ffb6c1,     /* Light Pink */
+    84px 1382px #f4a460,       /* Sandy Brown */
+    1622px 1876px #ffffff,     /* Bright White */
+    326px 1419px #f0e68c,      /* Star Yellow */
+    1362px 1374px #f08080,     /* Light Coral */
+    829px 1796px #d8bfd8,      /* Thistle */
+    1425px 1617px #f4a460,     /* Sandy Brown */
+    203px 226px #ffdead,       /* Navajo White */
+    1834px 843px #b0e0e6,      /* Powder Blue */
+    1788px 1173px #add8e6,     /* Light Blue */
+    1964px 843px #ff69b4,      /* Hot Pink */
+    332px 1861px #ffffff,      /* Bright White */
+    890px 1610px #f0e68c,      /* Star Yellow */
+    1633px 1652px #f4a460,     /* Sandy Brown */
+    302px 1028px #dcdcdc,      /* Gainsboro */
+    688px 84px #ffdead,       /* Navajo White */
+    968px 929px #f08080,      /* Light Coral */
+    1627px 1704px #e0ffff,     /* Light Cyan */
+    1841px 618px #add8e6,      /* Light Blue */
+    1631px 1640px #f4a460,     /* Sandy Brown */
+    1838px 942px #ffffff,      /* Bright White */
+    912px 1615px #f0e68c,      /* Star Yellow */
+    827px 328px #ff7f50,      /* Coral */
+    851px 1202px #dcdcdc,      /* Gainsboro */
+    1640px 763px #f08080,      /* Light Coral */
+    1526px 952px #ffb6c1,      /* Light Pink */
+    1283px 1334px #b0e0e6,     /* Powder Blue */
+    1162px 636px #f4a460,      /* Sandy Brown */
+    885px 1582px #add8e6,      /* Light Blue */
+    1147px 1617px #ffdead,     /* Navajo White */
+    1531px 1281px #dcdcdc,      /* Gainsboro */
+    252px 797px #ff69b4,       /* Hot Pink */
+    969px 1128px #ffffff,      /* Bright White */
+    1168px 1254px #f0e68c,     /* Star Yellow */
+    1867px 1771px #f4a460,     /* Sandy Brown */
+    934px 1735px #e0ffff,      /* Light Cyan */
+    912px 462px #f08080,       /* Light Coral */
+    819px 1730px #b0e0e6,      /* Powder Blue */
+    959px 1179px #add8e6,      /* Light Blue */
+    1282px 1580px #ffb6c1,     /* Light Pink */
+    244px 509px #f4a460,       /* Sandy Brown */
+    982px 56px #ffdead,        /* Navajo White */
+    1852px 1098px #dcdcdc,     /* Gainsboro */
+    647px 813px #f0e68c,       /* Star Yellow */
+    1032px 618px #f08080,      /* Light Coral */
+    645px 1194px #e0ffff,      /* Light Cyan */
+    1524px 911px #f4a460,      /* Sandy Brown */
+    1064px 1999px #ffffff,     /* Bright White */
+     98px 1180px #add8e6,      /* Light Blue */
+    1147px 579px #dcdcdc,      /* Gainsboro */
+    274px 1814px #ff69b4,      /* Hot Pink */
+    1827px 658px #ffdead,      /* Navajo White */
+    1995px 755px #f0e68c,      /* Star Yellow */
+    1009px 1269px #f4a460,     /* Sandy Brown */
+    418px 828px #f08080,       /* Light Coral */
+    1085px 1503px #b0e0e6,     /* Powder Blue */
+    1796px 1436px #ffb6c1,     /* Light Pink */
+    1895px 1511px #ffffff,     /* Bright White */
+    1274px 763px #dcdcdc,      /* Gainsboro */
+    1625px 1846px #e0ffff,      /* Light Cyan */
+    1433px 623px #ff69b4,      /* Hot Pink */
+    227px 1128px #f0e68c,      /* Star Yellow */
+    1031px 1264px #f4a460,     /* Sandy Brown */
+    955px 779px #ffdead,      /* Navajo White */
+    1295px 238px #add8e6,      /* Light Blue */
+    1950px 1044px #f08080,     /* Light Coral */
+    1763px 874px #dcdcdc,      /* Gainsboro */
+    477px 1660px #f4a460,      /* Sandy Brown */
+    859px 788px #ffffff,      /* Bright White */
+    1796px 1129px #ffb6c1,     /* Light Pink */
+    1236px 1986px #b0e0e6,     /* Powder Blue */
+    876px 78px #e0ffff,       /* Light Cyan */
+    663px 1443px #f0e68c,      /* Star Yellow */
+    1900px 881px #ff69b4,      /* Hot Pink */
+    298px 930px #ffdead,      /* Navajo White */
+    707px 1518px #add8e6,      /* Light Blue */
+    370px 773px #f08080,       /* Light Coral */
+    614px 572px #dcdcdc,      /* Gainsboro */
+    420px 683px #f4a460,      /* Sandy Brown */
+    1372px 1478px #ffffff,     /* Bright White */
+    1465px 1081px #f0e68c,     /* Star Yellow */
+    1679px 1543px #ffb6c1,     /* Light Pink */
+    1846px 639px #e0ffff,      /* Light Cyan */
+    1515px 988px #ffdead,     /* Navajo White */
+    1121px 1957px #f08080,     /* Light Coral */
+    1657px 1230px #add8e6,     /* Light Blue */
+    958px 829px #f4a460,      /* Sandy Brown */
+    1430px 1901px #dcdcdc,     /* Gainsboro */
+    811px 285px #ff69b4,      /* Hot Pink */
+    1789px 1504px #ffffff,     /* Bright White */
+    1098px 1410px #f0e68c,     /* Star Yellow */
+    846px 1040px #f4a460,      /* Sandy Brown */
+    328px 706px #f08080,       /* Light Coral */
+    659px 840px #b0e0e6,      /* Powder Blue */
+    1210px 918px #add8e6,     /* Light Blue */
+    467px 968px #ffdead,      /* Navajo White */
+    1740px 1223px #dcdcdc,     /* Gainsboro */
+    1684px 858px #ff69b4,      /* Hot Pink */
+    1868px 1611px #ffffff,     /* Bright White */
+    1680px 1246px #f0e68c,     /* Star Yellow */
+    882px 1634px #f4a460,      /* Sandy Brown */
+    1778px 804px #e0ffff,      /* Light Cyan */
+    1657px 75px #ffdead,      /* Navajo White */
+    1324px 1815px #dcdcdc,     /* Gainsboro */
+    1463px 1783px #f08080,     /* Light Coral */
+    1272px 1408px #b0e0e6,     /* Powder Blue */
+    1176px 1499px #ffb6c1,     /* Light Pink */
+    1803px 1266px #f4a460,     /* Sandy Brown */
+    1521px 1634px #ffffff,     /* Bright White */
+    1226px 959px #f0e68c,      /* Star Yellow */
+    267px 992px #add8e6,      /* Light Blue */
+    827px 1351px #ffdead,      /* Navajo White */
+    356px 878px #f08080,       /* Light Coral */
+    1217px 975px #dcdcdc,      /* Gainsboro */
+    415px 1066px #f4a460,      /* Sandy Brown */
+    1362px 710px #ff69b4,      /* Hot Pink */
+    960px 1362px #ffffff,      /* Bright White */
+    1095px 1269px #f0e68c,     /* Star Yellow */
+    1532px 1404px #f4a460,     /* Sandy Brown */
+    718px 1661px #e0ffff,      /* Light Cyan */
+    663px 275px #ffdead,      /* Navajo White */
+    1633px 915px #dcdcdc,      /* Gainsboro */
+    301px 1530px #f08080,      /* Light Coral */
+    880px 1389px #b0e0e6,     /* Powder Blue */
+    1231px 1455px #add8e6,      /* Light Blue */
+    950px 883px #ffb6c1,      /* Light Pink */
+    1512px 963px #f4a460,     /* Sandy Brown */
+    651px 1588px #f0e68c,      /* Star Yellow */
+    1634px 1923px #ff69b4,     /* Hot Pink */
+    1251px 920px #ffffff,     /* Bright White */
+    1861px 98px #dcdcdc,      /* Gainsboro */
+    1192px 696px #ffdead,     /* Navajo White */
+    1033px 1084px #f08080,     /* Light Coral */
+    1318px 1158px #e0ffff,     /* Light Cyan */
+    672px 1921px #f4a460,      /* Sandy Brown */
+    235px 1722px #ffb6c1,     /* Light Pink */
+    512px 728px #f0e68c,      /* Star Yellow */
+    302px 1053px #add8e6,      /* Light Blue */
+    783px 1525px #f08080,      /* Light Coral */
+    1948px 1309px #dcdcdc,     /* Gainsboro */
+    448px 1094px #ff69b4,      /* Hot Pink */
+    1369px 1298px #ffffff,     /* Bright White */
+    829px 804px #ffdead,      /* Navajo White */
+    1332px 1057px #f4a460,     /* Sandy Brown */
+    799px 1586px #e0ffff,      /* Light Cyan */
+    1251px 696px #f0e68c,      /* Star Yellow */
+    1763px 823px #dcdcdc,     /* Gainsboro */
+    1056px 90px #b0e0e6,      /* Powder Blue */
+    294px 211px #ff69b4,      /* Hot Pink */
+    969px 1471px #ffdead,     /* Navajo White */
+    1322px 1096px #f08080,     /* Light Coral */
+    1446px 1385px #f4a460,     /* Sandy Brown */
+    1331px 1290px #add8e6,      /* Light Blue */
+    1663px 921px #ffffff,     /* Bright White */
+    1402px 710px #f0e68c,      /* Star Yellow */
+    930px 1364px #f08080,      /* Light Coral */
+    1626px 1413px #dcdcdc,     /* Gainsboro */
+     63px 1616px #ff69b4,      /* Hot Pink */
+    1308px 640px #ffdead,      /* Navajo White */
+    1504px 1130px #f4a460,     /* Sandy Brown */
+    1114px 1959px #b0e0e6,     /* Powder Blue */
+    1222px 1534px #e0ffff,     /* Light Cyan */
+    1714px 1048px #f0e68c,     /* Star Yellow */
+    1550px 1516px #add8e6,     /* Light Blue */
+    1096px 1350px #dcdcdc,     /* Gainsboro */
+    1539px 1083px #f08080,     /* Light Coral */
+    1524px 637px #ffb6c1,     /* Light Pink */
+    1011px 1615px #ffffff,     /* Bright White */
+    897px 1092px #ffdead,      /* Navajo White */
+    1272px 943px #f4a460,     /* Sandy Brown */
+    1064px 586px #f0e68c,      /* Star Yellow */
+    1607px 1756px #dcdcdc,     /* Gainsboro */
+    352px 1624px #b0e0e6,     /* Powder Blue */
+    1969px 1539px #ff69b4,     /* Hot Pink */
+    1103px 1569px #ffdead,     /* Navajo White */
+    1944px 245px #f4a460,     /* Sandy Brown */
+    1092px 1214px #f0e68c,     /* Star Yellow */
+    1291px 686px #e0ffff,      /* Light Cyan */
+    1629px 1545px #dcdcdc,     /* Gainsboro */
+    215px 905px #ffb6c1,      /* Light Pink */
+    689px 1001px #f08080,      /* Light Coral */
+    558px 1515px #f4a460,      /* Sandy Brown */
+    1333px 290px #ff69b4,      /* Hot Pink */
+    654px 899px #ffffff,      /* Bright White */
+    1288px 931px #f0e68c,     /* Star Yellow */
+    1663px 1445px #ffdead,     /* Navajo White */
+    1239px 626px #e0ffff,      /* Light Cyan */
+    1475px 1065px #b0e0e6,     /* Powder Blue */
+    1659px 1915px #dcdcdc,     /* Gainsboro */
+    682px 598px #f4a460,      /* Sandy Brown */
+    1788px 387px #add8e6,      /* Light Blue */
+    973px 486px #f08080,      /* Light Coral */
+    1391px 781px #ffb6c1,     /* Light Pink */
+    1064px 456px #ffffff,     /* Bright White */
+    1034px 431px #ff69b4,      /* Hot Pink */
+    1841px 1741px #f0e68c,     /* Star Yellow */
+    845px 1512px #f4a460,      /* Sandy Brown */
+    964px 1540px #ffdead,     /* Navajo White */
+    1602px 820px #dcdcdc,     /* Gainsboro */
+    1614px 994px #e0ffff,      /* Light Cyan */
+    487px 1155px #b0e0e6,     /* Powder Blue */
+    942px 1580px #ff69b4,      /* Hot Pink */
+    962px 1299px #f08080,      /* Light Coral */
+    859px 1318px #f4a460,      /* Sandy Brown */
+    1843px 1415px #ffffff,     /* Bright White */
+    1972px 261px #f0e68c,      /* Star Yellow */
+    211px 1300px #add8e6,      /* Light Blue */
+    1283px 885px #ffdead,     /* Navajo White */
+    1673px 275px #dcdcdc,      /* Gainsboro */
+    694px 82px #f08080,       /* Light Coral */
+    957px 399px #ffb6c1,      /* Light Pink */
+    505px 1785px #f4a460,     /* Sandy Brown */
+    346px 496px #e0ffff,      /* Light Cyan */
+    1489px 1044px #f0e68c,     /* Star Yellow */
+    233px 1295px #b0e0e6,     /* Powder Blue */
+    1639px 905px #ffffff,     /* Bright White */
+    1914px 1480px #ff69b4,     /* Hot Pink */
+    741px 516px #dcdcdc,      /* Gainsboro */
+    1244px 304px #ffdead,     /* Navajo White */
+    1430px 1731px #f08080,     /* Light Coral */
+    743px 1743px #f4a460,      /* Sandy Brown */
+    895px 1615px #e0ffff,      /* Light Cyan */
+    1301px 802px #f0e68c,      /* Star Yellow */
+    661px 993px #add8e6,      /* Light Blue */
+    1508px 1498px #ffb6c1,     /* Light Pink */
+    578px 802px #ffffff,      /* Bright White */
+    909px 798px #ff69b4,      /* Hot Pink */
+    1138px 769px #dcdcdc,      /* Gainsboro */
+    90px 1857px #ffdead,      /* Navajo White */
+    1884px 657px #f4a460,      /* Sandy Brown */
+    317px 1184px #e0ffff,      /* Light Cyan */
+    1112px 1623px #f0e68c,     /* Star Yellow */
+    1050px 901px #b0e0e6,     /* Powder Blue */
+    1214px 1120px #add8e6,    /* Light Blue */
+    1651px 1558px #ffb6c1,     /* Light Pink */
+    1496px 944px #ffffff,     /* Bright White */
+    338px 1478px #ff69b4,      /* Hot Pink */
+    1733px 243px #ffdead,     /* Navajo White */
+    1423px 1263px #f08080,     /* Light Coral */
+    1228px 932px #f4a460,     /* Sandy Brown */
+    1933px 1914px #dcdcdc,     /* Gainsboro */
+    1195px 1750px #f0e68c,     /* Star Yellow */
+    1458px 1171px #e0ffff,     /* Light Cyan */
+    918px 1983px #b0e0e6,     /* Powder Blue */
+    727px 1631px #add8e6,      /* Light Blue */
+    1701px 1152px #ffb6c1,     /* Light Pink */
+    783px 1749px #ffffff,      /* Bright White */
+    626px 655px #f08080,      /* Light Coral */
+    1686px 1346px #f4a460,     /* Sandy Brown */
+    1123px 927px #ffdead,      /* Navajo White */
+    788px 1791px #dcdcdc,      /* Gainsboro */
+    292px 1890px #ff69b4,      /* Hot Pink */
+    926px 1376px #f0e68c,      /* Star Yellow */
+    1964px 1080px #ffffff,     /* Bright White */
+    1460px 1598px #f4a460,     /* Sandy Brown */
+    617px 1448px #e0ffff,      /* Light Cyan */
+    1991px 1181px #add8e6,     /* Light Blue */
+    1156px 303px #f08080,      /* Light Coral */
+    907px 849px #dcdcdc,      /* Gainsboro */
+    337px 935px #ff69b4,      /* Hot Pink */
+    1872px 883px #ffdead,      /* Navajo White */
+    1504px 1730px #f4a460,     /* Sandy Brown */
+    1621px 1302px #f0e68c,     /* Star Yellow */
+    903px 1589px #b0e0e6,      /* Powder Blue */
+    218px 1195px #e0ffff,      /* Light Cyan */
+    905px 1410px #ffffff,     /* Bright White */
+    1188px 809px #add8e6,     /* Light Blue */
+    812px 1103px #ffb6c1,     /* Light Pink */
+    889px 1141px #f08080,      /* Light Coral */
+    1734px 213px #f4a460,     /* Sandy Brown */
+    259px 1446px #ff69b4,      /* Hot Pink */
+    1900px 1292px #dcdcdc,     /* Gainsboro */
+    563px 1234px #ffdead,     /* Navajo White */
+    1182px 333px #f0e68c,     /* Star Yellow */
+    563px 1769px #e0ffff,     /* Light Cyan */
+    1121px 1334px #b0e0e6,     /* Powder Blue */
+    1522px 1785px #f4a460,     /* Sandy Brown */
+    1738px 1782px #ffffff,     /* Bright White */
+    582px 1073px #ffb6c1,      /* Light Pink */
+    375px 1360px #add8e6,      /* Light Blue */
+    1412px 723px #f08080,      /* Light Coral */
+    825px 1986px #dcdcdc,     /* Gainsboro */
+    829px 786px #ff69b4,      /* Hot Pink */
+    1030px 895px #ffdead,     /* Navajo White */
+    873px 1824px #f0e68c,      /* Star Yellow */
+    918px 1701px #e0ffff,     /* Light Cyan */
+    267px 1131px #b0e0e6,     /* Powder Blue */
+    1268px 1155px #f4a460,     /* Sandy Brown */
+    1298px 868px #ffffff,     /* Bright White */
+    1117px 840px #add8e6,     /* Light Blue */
+    870px 1636px #ffb6c1,     /* Light Pink */
+    407px 1800px #ff69b4,      /* Hot Pink */
+    1633px 1780px #f08080,     /* Light Coral */
+    1464px 1096px #dcdcdc,     /* Gainsboro */
+    1306px 1112px #ffdead,     /* Navajo White */
+    318px 1541px #f0e68c,      /* Star Yellow */
+    1261px 1033px #f4a460,     /* Sandy Brown */
+    1891px 835px #e0ffff,      /* Light Cyan */
+    408px 255px #b0e0e6,      /* Powder Blue */
+    1620px 473px #ffffff,     /* Bright White */
+    952px 776px #ff69b4,      /* Hot Pink */
+    1941px 935px #ffdead,     /* Navajo White */
+    1902px 1480px #f08080,     /* Light Coral */
+    1764px 1151px #dcdcdc,     /* Gainsboro */
+    872px 931px #f4a460,      /* Sandy Brown */
+    1586px 1764px #e0ffff,     /* Light Cyan */
+    1641px 947px #b0e0e6,     /* Powder Blue */
+    1343px 824px #add8e6,     /* Light Blue */
+    1593px 363px #ff69b4,      /* Hot Pink */
+    1768px 1957px #f0e68c,     /* Star Yellow */
+    547px 705px #f4a460,      /* Sandy Brown */
+    1243px 1132px #ffffff,     /* Bright White */
+    715px 646px #dcdcdc,     /* Gainsboro */
+    1062px 1052px #ffb6c1,     /* Light Pink */
+    1324px 433px #e0ffff,     /* Light Cyan */
+    1290px 909px #add8e6,     /* Light Blue */
+    695px 852px #f08080,      /* Light Coral */
+    1403px 1621px #ffdead,     /* Navajo White */
+    511px 1671px #f0e68c,      /* Star Yellow */
+    226px 687px #b0e0e6,     /* Powder Blue */
+    861px 431px #ffffff,     /* Bright White */
+    246px 325px #ff69b4,      /* Hot Pink */
+    980px 794px #ffdead,      /* Navajo White */
+    1933px 1355px #f4a460,     /* Sandy Brown */
+    1130px 1071px #f0e68c,     /* Star Yellow */
+    953px 1602px #dcdcdc,     /* Gainsboro */
+    213px 225px #e0ffff,     /* Light Cyan */
+    1468px 1464px #b0e0e6,     /* Powder Blue */
+    1500px 1063px #add8e6,     /* Light Blue */
+    1343px 418px #ff69b4,      /* Hot Pink */
+    1630px 931px #ffffff,     /* Bright White */
+    1672px 827px #f08080,      /* Light Coral */
+    1023px 931px #f4a460,     /* Sandy Brown */
+    522px 1206px #dcdcdc,     /* Gainsboro */
+    823px 785px #ffdead,      /* Navajo White */
+    852px 813px #e0ffff,     /* Light Cyan */
+    1754px 846px #f0e68c,     /* Star Yellow */
+    1758px 1061px #b0e0e6,     /* Powder Blue */
+    1555px 1769px #add8e6,     /* Light Blue */
+    1999px 1605px #ff69b4,     /* Hot Pink */
+    223px 988px #ffb6c1,      /* Light Pink */
+    1103px 1503px #ffffff,     /* Bright White */
+    854px 1609px #f4a460,     /* Sandy Brown */
+    873px 932px #dcdcdc,      /* Gainsboro */
+    682px 341px #e0ffff,      /* Light Cyan */
+    1883px 538px #f08080,     /* Light Coral */
+    992px 671px #f0e68c,      /* Star Yellow */
+    1996px 1519px #b0e0e6,     /* Powder Blue */
+    1053px 1569px #add8e6,     /* Light Blue */
+    1609px 877px #ff69b4,      /* Hot Pink */
+    993px 1625px #dcdcdc,      /* Gainsboro */
+    1161px 1822px #ffdead,     /* Navajo White */
+    934px 983px #f4a460,      /* Sandy Brown */
+    1158px 586px #e0ffff,     /* Light Cyan */
+    1054px 846px #ffffff,     /* Bright White */
+    1394px 1121px #ffb6c1,     /* Light Pink */
+    1476px 1678px #f0e68c,     /* Star Yellow */
+    728px 1732px #f08080,      /* Light Coral */
+    1826px 1768px #add8e6,     /* Light Blue */
+    756px 1564px #ff69b4,      /* Hot Pink */
+    1256px 746px #dcdcdc,     /* Gainsboro */
+    1373px 328px #ffdead,     /* Navajo White */
+    1784px 677px #f4a460,     /* Sandy Brown */
+    378px 1242px #e0ffff,     /* Light Cyan */
+    1706px 745px #b0e0e6,     /* Powder Blue */
+    877px 397px #ffffff,     /* Bright White */
+    1984px 1592px #f0e68c,     /* Star Yellow */
+    1160px 1240px #ffb6c1,     /* Light Pink */
+    861px 1060px #f08080,      /* Light Coral */
+    854px 973px #dcdcdc,      /* Gainsboro */
+    1041px 686px #f4a460,     /* Sandy Brown */
+    1101px 1145px #add8e6,    /* Light Blue */
+    660px 505px #ff69b4,      /* Hot Pink */
+    344px 993px #ffffff,     /* Bright White */
+    353px 1556px #ffdead,     /* Navajo White */
+    637px 474px #e0ffff,      /* Light Cyan */
+    1819px 739px #f0e68c,     /* Star Yellow */
+    1468px 777px #b0e0e6,     /* Powder Blue */
+    1080px 1213px #f08080,     /* Light Coral */
+    1126px 283px #dcdcdc,     /* Gainsboro */
+    1616px 1132px #ffb6c1,     /* Light Pink */
+    458px 1673px #f4a460,     /* Sandy Brown */
+    856px 217px #ff69b4,      /* Hot Pink */
+    1443px 777px #ffffff,     /* Bright White */
+    1546px 752px #ffdead,     /* Navajo White */
+    1356px 727px #e0ffff,      /* Light Cyan */
+    277px 234px #f0e68c,      /* Star Yellow */
+    303px 200px #b0e0e6,     /* Powder Blue */
+    1109px 1514px #add8e6,    /* Light Blue */
+    975px 1181px #f4a460,     /* Sandy Brown */
+    940px 669px #f08080,      /* Light Coral */
+    1843px 1228px #dcdcdc,     /* Gainsboro */
+    611px 368px #ffb6c1,      /* Light Pink */
+    1207px 1538px #ff69b4,     /* Hot Pink */
+    1846px 694px #e0ffff,     /* Light Cyan */
+    1034px 603px #f0e68c,     /* Star Yellow */
+    1628px 827px #b0e0e6,     /* Powder Blue */
+    477px 778px #ffffff,     /* Bright White */
+    786px 1949px #f4a460,     /* Sandy Brown */
+    732px 1711px #dcdcdc,     /* Gainsboro */
+    929px 881px #f08080,      /* Light Coral */
+    1395px 813px #ffdead,     /* Navajo White */
+    1054px 842px #add8e6,     /* Light Blue */
+    1203px 1466px #ff69b4,     /* Hot Pink */
+    1425px 251px #ffb6c1,     /* Light Pink */
+    1395px 1678px #ffffff,     /* Bright White */
+    578px 242px #e0ffff,      /* Light Cyan */
+    335px 627px #f0e68c,      /* Star Yellow */
+    942px 1348px #f4a460,     /* Sandy Brown */
+    237px 1616px #b0e0e6,     /* Powder Blue */
+    1950px 1569px #dcdcdc,     /* Gainsboro */
+    623px 1915px #f08080,     /* Light Coral */
+    1533px 371px #ff69b4,     /* Hot Pink */
+    1268px 1933px #ffdead,     /* Navajo White */
+    446px 1421px #e0ffff,      /* Light Cyan */
+    999px 1228px #add8e6,     /* Light Blue */
+    739px 896px #f4a460,      /* Sandy Brown */
+    1229px 617px #ffffff,     /* Bright White */
+    949px 1159px #f0e68c,     /* Star Yellow */
+    1184px 1113px #dcdcdc,     /* Gainsboro */
+    1091px 1589px #ffb6c1,     /* Light Pink */
+    451px 891px #f08080,      /* Light Coral */
+    1558px 1992px #ff69b4,     /* Hot Pink */
+    1178px 551px #ffdead,     /* Navajo White */
+    659px 689px #f4a460,      /* Sandy Brown */
+    1932px 1668px #e0ffff,     /* Light Cyan */
+    972px 1933px #b0e0e6,     /* Powder Blue */
+    982px 929px #ffffff,     /* Bright White */
+    540px 726px #add8e6,     /* Light Blue */
+    408px 881px #f08080,      /* Light Coral */
+    1990px 1494px #ff69b4,     /* Hot Pink */
+    1170px 1188px #f0e68c,     /* Star Yellow */
+    1739px 1032px #ffdead,     /* Navajo White */
+    585px 1050px #dcdcdc,     /* Gainsboro */
+    1460px 1263px #e0ffff,     /* Light Cyan */
+    1601px 1250px #f4a460,     /* Sandy Brown */
+    777px 829px #ffffff,     /* Bright White */
+    1579px 679px #b0e0e6,     /* Powder Blue */
+    948px 265px #add8e6,     /* Light Blue */
+    1200px 1568px #ff69b4,     /* Hot Pink */
+    1369px 530px #ffb6c1,     /* Light Pink */
+    1786px 1988px #f08080,     /* Light Coral */
+    1133px 329px #dcdcdc,     /* Gainsboro */
+    1092px 1066px #f0e68c,     /* Star Yellow */
+    1386px 888px #e0ffff,     /* Light Cyan */
+    1863px 1855px #b0e0e6,     /* Powder Blue */
+    1335px 240px #f4a460,     /* Sandy Brown */
+    1184px 364px #ffffff,     /* Bright White */
+    1529px 1461px #add8e6,     /* Light Blue */
+    1661px 315px #ff69b4,     /* Hot Pink */
+    448px 1743px #ffdead,     /* Navajo White */
+    282px 635px #dcdcdc,     /* Gainsboro */
+    1564px 943px #f0e68c,     /* Star Yellow */
+    924px 557px #f08080,      /* Light Coral */
+    1745px 1524px #e0ffff,     /* Light Cyan */
+    1924px 1636px #b0e0e6,     /* Powder Blue */
+    1561px 1140px #ffffff,     /* Bright White */
+    659px 1568px #f4a460,     /* Sandy Brown */
+    988px 1072px #add8e6,     /* Light Blue */
+    1588px 1356px #ff69b4,     /* Hot Pink */
+    935px 1150px #dcdcdc,     /* Gainsboro */
+    1616px 265px #ffdead,     /* Navajo White */
+    1383px 888px #f0e68c,     /* Star Yellow */
+    242px 1741px #e0ffff,     /* Light Cyan */
+    315px 211px #b0e0e6,     /* Powder Blue */
+    1705px 287px #f4a460,     /* Sandy Brown */
+    354px 1352px #ffffff,     /* Bright White */
+    685px 827px #ffb6c1,      /* Light Pink */
+    1585px 469px #f08080,     /* Light Coral */
+    1102px 999px #ff69b4,     /* Hot Pink */
+    1368px 1500px #dcdcdc,     /* Gainsboro */
+    1739px 994px #f0e68c,     /* Star Yellow */
+    855px 1193px #e0ffff,     /* Light Cyan */
+    1214px 618px #b0e0e6,     /* Powder Blue */
+    1251px 681px #add8e6,     /* Light Blue */
+    343px 1424px #f4a460,     /* Sandy Brown */
+    1851px 536px #ffffff,     /* Bright White */
+    1916px 1463px #ffb6c1,     /* Light Pink */
+    1688px 1103px #f08080,     /* Light Coral */
+    1561px 811px #ff69b4,     /* Hot Pink */
+    646px 869px #ffdead,     /* Navajo White */
+    348px 1654px #f0e68c,     /* Star Yellow */
+    935px 299px #dcdcdc,     /* Gainsboro */
+    1966px 1350px #e0ffff,     /* Light Cyan */
+    370px 1535px #b0e0e6,     /* Powder Blue */
+    973px 1083px #f4a460,     /* Sandy Brown */
+    348px 1654px #ffffff,     /* Bright White */
+    1851px 1728px #ff69b4,     /* Hot Pink */
+    953px 1943px #ffdead,     /* Navajo White */
+    1632px 1841px #f08080,     /* Light Coral */
+    1610px 1538px #dcdcdc,     /* Gainsboro */
+    1376px 1468px #f0e68c,     /* Star Yellow */
+    1733px 1186px #e0ffff,     /* Light Cyan */
+    329px 1084px #b0e0e6,     /* Powder Blue */
+    1556px 968px #add8e6,     /* Light Blue */
+    684px 1844px #ffffff,     /* Bright White */
+    1556px 1550px #f4a460,     /* Sandy Brown */
+    407px 1962px #dcdcdc,     /* Gainsboro */
+    1979px 761px #ff69b4,     /* Hot Pink */
+    737px 1344px #ffdead,     /* Navajo White */
+    1755px 1290px #f0e68c,     /* Star Yellow */
+    1785px 728px #e0ffff,     /* Light Cyan */
+    748px 551px #b0e0e6,     /* Powder Blue */
+    1943px 1853px #add8e6,     /* Light Blue */
+    1490px 1481px #ffffff,     /* Bright White */
+    1161px 594px #f08080,     /* Light Coral */
+    1283px 217px #ff69b4,     /* Hot Pink */
+    1454px 768px #ffb6c1,     /* Light Pink */
+    1808px 1035px #f4a460,     /* Sandy Brown */
+    1937px 860px #dcdcdc,     /* Gainsboro */
+    438px 1071px #e0ffff,     /* Light Cyan */
+    746px 1564px #f0e68c,     /* Star Yellow */
+    1154px 1550px #b0e0e6,     /* Powder Blue */
+    642px 1003px #ffffff,     /* Bright White */
+    448px 992px #ff69b4,      /* Hot Pink */
+    1702px 1506px #ffdead,     /* Navajo White */
+    1778px 823px #f08080,     /* Light Coral */
+    1954px 909px #f4a460,     /* Sandy Brown */
+    612px 906px #dcdcdc,     /* Gainsboro */
+    446px 1330px #e0ffff,     /* Light Cyan */
+    676px 960px #add8e6,     /* Light Blue */
+    586px 1368px #b0e0e6,     /* Powder Blue */
+    328px 1512px #ffffff,     /* Bright White */
+    927px 282px #f0e68c,      /* Star Yellow */
+    1612px 1591px #ff69b4,     /* Hot Pink */
+    1991px 690px #ffdead,     /* Navajo White */
+    1639px 678px #f08080,     /* Light Coral */
+    1988px 664px #dcdcdc,     /* Gainsboro */
+    628px 694px #f4a460,      /* Sandy Brown */
+    815px 551px #e0ffff,     /* Light Cyan */
+    1301px 1514px #add8e6,     /* Light Blue */
+    1215px 901px #ffffff,     /* Bright White */
+    1582px 1056px #ff69b4,     /* Hot Pink */
+    947px 848px #ffb6c1,      /* Light Pink */
+    870px 1068px #f0e68c,      /* Star Yellow */
+    282px 957px #b0e0e6,     /* Powder Blue */
+    814px 1553px #f4a460,     /* Sandy Brown */
+    293px 1542px #f08080,     /* Light Coral */
+    1075px 734px #dcdcdc,     /* Gainsboro */
+    210px 641px #e0ffff,     /* Light Cyan */
+    1083px 817px #add8e6,     /* Light Blue */
+    874px 1173px #ffffff,     /* Bright White */
+    953px 1054px #ff69b4,     /* Hot Pink */
+    469px 1579px #ffdead,     /* Navajo White */
+    1624px 574px #f0e68c,     /* Star Yellow */
+    1502px 862px #f4a460,     /* Sandy Brown */
+    756px 1140px #dcdcdc,     /* Gainsboro */
+    1132px 1726px #e0ffff,     /* Light Cyan */
+    851px 1675px #b0e0e6,     /* Powder Blue */
+    1004px 694px #ffffff,     /* Bright White */
+    580px 1365px #add8e6,     /* Light Blue */
+    1243px 1544px #ff69b4,     /* Hot Pink */
+    1800px 210px #ffdead,     /* Navajo White */
+    817px 2003px #f08080,     /* Light Coral */
+    868px 895px #f0e68c,      /* Star Yellow */
+    1034px 1575px #e0ffff,     /* Light Cyan */
+    1100px 1085px #b0e0e6,     /* Powder Blue */
+    1134px 1094px #f4a460,     /* Sandy Brown */
+    873px 1261px #ffffff,     /* Bright White */
+    1535px 1658px #ff69b4,     /* Hot Pink */
+    1114px 1729px #ffdead,     /* Navajo White */
+    307px 1015px #dcdcdc,     /* Gainsboro */
+    823px 474px #f0e68c,      /* Star Yellow */
+    354px 923px #f08080,      /* Light Coral */
+    1474px 1754px #e0ffff,     /* Light Cyan */
+    900px 1443px #add8e6,     /* Light Blue */
+    998px 879px #b0e0e6,     /* Powder Blue */
+    1700px 202px #ffffff,     /* Bright White */
+    1705px 1615px #f4a460,     /* Sandy Brown */
+    617px 863px #ff69b4,      /* Hot Pink */
+    934px 1646px #ffb6c1,     /* Light Pink */
+    1483px 1242px #f0e68c,     /* Star Yellow */
+    789px 1181px #dcdcdc,     /* Gainsboro */
+    1311px 668px #e0ffff,     /* Light Cyan */
+    1539px 1585px #f08080,     /* Light Coral */
+    1144px 877px #add8e6,     /* Light Blue */
+    728px 628px #ffffff,     /* Bright White */
+    1922px 1287px #ff69b4,     /* Hot Pink */
+    1672px 1796px #ffdead,     /* Navajo White */
+    1746px 1666px #f4a460,     /* Sandy Brown */
+    953px 1276px #dcdcdc,     /* Gainsboro */
+    1521px 1371px #b0e0e6,     /* Powder Blue */
+    779px 616px #f0e68c,      /* Star Yellow */
+    1514px 709px #e0ffff,     /* Light Cyan */
+    1882px 848px #add8e6,     /* Light Blue */
+    1242px 894px #ffffff,     /* Bright White */
+    1688px 1726px #ff69b4,     /* Hot Pink */
+    1178px 1110px #ffdead,     /* Navajo White */
+    1477px 633px #f08080,     /* Light Coral */
+    1280px 1005px #dcdcdc,     /* Gainsboro */
+    919px 1539px #f4a460,     /* Sandy Brown */
+    654px 1340px #e0ffff,     /* Light Cyan */
+    1955px 1646px #b0e0e6,     /* Powder Blue */
+    838px 910px #ffb6c1,      /* Light Pink */
+    1771px 940px #add8e6,     /* Light Blue */
+    1370px 1033px #ffffff,     /* Bright White */
+    1544px 1681px #ff69b4,     /* Hot Pink */
+    1485px 1031px #ffdead,     /* Navajo White */
+    1956px 1132px #f0e68c,     /* Star Yellow */
+    334px 270px #f4a460,      /* Sandy Brown */
+    990px 1183px #e0ffff,     /* Light Cyan */
+    1303px 1300px #dcdcdc,     /* Gainsboro */
+    1522px 891px #b0e0e6,     /* Powder Blue */
+    1347px 1886px #ffffff,     /* Bright White */
+    311px 1870px #add8e6,     /* Light Blue */
+    963px 1749px #ff69b4,     /* Hot Pink */
+    1688px 327px #ffdead,     /* Navajo White */
+    1465px 1324px #f08080,     /* Light Coral */
+    1640px 763px #f0e68c,     /* Star Yellow */
+    1344px 1058px #f4a460,     /* Sandy Brown */
+    1345px 1823px #e0ffff,     /* Light Cyan */
+    1572px 629px #add8e6,     /* Light Blue */
+    1576px 1589px #ffffff,     /* Bright White */
+    1725px 1681px #b0e0e6,     /* Powder Blue */
+    1475px 1774px #dcdcdc,     /* Gainsboro */
+    1485px 1944px #ffb6c1,     /* Light Pink */
+    1771px 1674px #ff69b4,     /* Hot Pink */
+    837px 882px #ffdead,     /* Navajo White */
+    1145px 1193px #f0e68c,     /* Star Yellow */
+    977px 1117px #e0ffff,     /* Light Cyan */
+    1200px 302px #f4a460,     /* Sandy Brown */
+    238px 1013px #b0e0e6,     /* Powder Blue */
+    776px 1900px #ffffff,     /* Bright White */
+    1875px 1756px #add8e6,     /* Light Blue */
+    1570px 1206px #f08080,     /* Light Coral */
+    1727px 1878px #ff69b4,     /* Hot Pink */
+    1473px 953px #ffdead,     /* Navajo White */
+    306px 1851px #dcdcdc,     /* Gainsboro */
+    1925px 1080px #f0e68c,     /* Star Yellow */
+    649px 215px #e0ffff,     /* Light Cyan */
+    1593px 1725px #b0e0e6,     /* Powder Blue */
+    649px 1053px #f4a460,     /* Sandy Brown */
+    1496px 1614px #ffffff,     /* Bright White */
+    1430px 1750px #ff69b4,     /* Hot Pink */
+    1593px 254px #ffdead,     /* Navajo White */
+    925px 634px #f08080,     /* Light Coral */
+    578px 634px #dcdcdc,     /* Gainsboro */
+    1015px 1949px #e0ffff,     /* Light Cyan */
+    1640px 368px #add8e6,     /* Light Blue */
+    343px 271px #b0e0e6,     /* Powder Blue */
+    1664px 1945px #f4a460,     /* Sandy Brown */
+    1327px 1649px #ffffff,     /* Bright White */
+    749px 1230px #ffb6c1,     /* Light Pink */
+    904px 1132px #f0e68c,     /* Star Yellow */
+    1085px 815px #ff69b4,     /* Hot Pink */
+    1721px 1215px #e0ffff,     /* Light Cyan */
+    206px 1157px #dcdcdc,     /* Gainsboro */
+    1362px 635px #b0e0e6,     /* Powder Blue */
+    1175px 789px #ffffff,     /* Bright White */
+    1077px 1244px #add8e6,     /* Light Blue */
+    1648px 1679px #f08080,     /* Light Coral */
+    1560px 1800px #ffdead,     /* Navajo White */
+    1730px 313px #f0e68c,     /* Star Yellow */
+    1355px 1274px #f4a460,     /* Sandy Brown */
+    204px 1373px #ff69b4,     /* Hot Pink */
+    1135px 785px #e0ffff,     /* Light Cyan */
+    1322px 681px #b0e0e6,     /* Powder Blue */
+    1937px 303px #ffffff,     /* Bright White */
+    583px 681px #add8e6,     /* Light Blue */
+    487px 1519px #dcdcdc,     /* Gainsboro */
+    1415px 354px #ffb6c1,     /* Light Pink */
+    793px 676px #f4a460,     /* Sandy Brown */
+    1134px 1182px #f08080,     /* Light Coral */
+    1551px 1899px #e0ffff,     /* Light Cyan */
+    1880px 1138px #ff69b4,     /* Hot Pink */
+    455px 983px #ffdead,     /* Navajo White */
+    1281px 1722px #b0e0e6,     /* Powder Blue */
+    1342px 1102px #f0e68c,     /* Star Yellow */
+    487px 1954px #ffffff,     /* Bright White */
+    1509px 1905px #add8e6,     /* Light Blue */
+    906px 1391px #f4a460,     /* Sandy Brown */
+    1214px 1813px #dcdcdc,     /* Gainsboro */
+    1011px 1091px #e0ffff,     /* Light Cyan */
+    707px 697px #b0e0e6,     /* Powder Blue */
+    1051px 1523px #ffffff,     /* Bright White */
+    1725px 2010px #ff69b4,     /* Hot Pink */
+    803px 1206px #ffdead,     /* Navajo White */
+    835px 1851px #f08080,     /* Light Coral */
+    1425px 2024px #f4a460,     /* Sandy Brown */
+    1945px 1975px #dcdcdc,     /* Gainsboro */
+    586px 895px #e0ffff,     /* Light Cyan */
+    1050px 1454px #add8e6,     /* Light Blue */
+    905px 1233px #b0e0e6,     /* Powder Blue */
+    763px 1556px #ffffff,     /* Bright White */
+    898px 1253px #ff69b4,     /* Hot Pink */
+    767px 876px #ffdead,     /* Navajo White */
+    370px 1710px #f0e68c,     /* Star Yellow */
+    1325px 1478px #f4a460,     /* Sandy Brown */
+    956px 1522px #dcdcdc,     /* Gainsboro */
+    292px 1852px #e0ffff,     /* Light Cyan */
+    1285px 1644px #b0e0e6,     /* Powder Blue */
+    1224px 1468px #ffffff,     /* Bright White */
+    1294px 994px #add8e6,     /* Light Blue */
+    1967px 284px #ff69b4,     /* Hot Pink */
+    1591px 747px #ffdead,     /* Navajo White */
+    1553px 1378px #f08080,     /* Light Coral */
+    1916px 334px #f0e68c,     /* Star Yellow */
+    1383px 1905px #e0ffff,     /* Light Cyan */
+    760px 289px #f4a460,     /* Sandy Brown */
+    1463px 815px #b0e0e6,     /* Powder Blue */
+    853px 989px #dcdcdc,     /* Gainsboro */
+    1573px 2028px #ffffff,     /* Bright White */
+    956px 1729px #add8e6,     /* Light Blue */
+    652px 1862px #ff69b4,     /* Hot Pink */
+    1753px 1717px #ffdead,     /* Navajo White */
+    302px 763px #f0e68c,      /* Star Yellow */
+    1586px 1646px #f4a460,     /* Sandy Brown */
+    823px 733px #e0ffff,     /* Light Cyan */
+    1806px 1014px #b0e0e6,     /* Powder Blue */
+    1069px 1254px #ffffff,     /* Bright White */
+    1054px 211px #add8e6,     /* Light Blue */
+    1278px 1501px #ff69b4,     /* Hot Pink */
+    1465px 384px #ffdead,     /* Navajo White */
+    1603px 1288px #f08080,     /* Light Coral */
+    1985px 1916px #dcdcdc,     /* Gainsboro */
+    1980px 1778px #f4a460,     /* Sandy Brown */
+    1662px 1724px #e0ffff,     /* Light Cyan */
+    816px 592px #b0e0e6,     /* Powder Blue */
+    1523px 1113px #ffffff,     /* Bright White */
+    1652px 1957px #add8e6,     /* Light Blue */
+    1733px 1950px #ff69b4,     /* Hot Pink */
+    552px 583px #ffdead,     /* Navajo White */
+    1720px 1144px #f0e68c,     /* Star Yellow */
+    838px 1820px #f4a460,     /* Sandy Brown */
+    776px 1354px #dcdcdc,     /* Gainsboro */
+    1907px 920px #e0ffff,     /* Light Cyan */
+    1463px 1792px #b0e0e6,     /* Powder Blue */
+    1822px 272px #ffffff,     /* Bright White */
+    1691px 885px #add8e6,     /* Light Blue */
+    715px 1754px #ff69b4,     /* Hot Pink */
+    637px 1541px #ffdead,     /* Navajo White */
+    1745px 733px #f08080,     /* Light Coral */
+    1718px 1052px #f0e68c,     /* Star Yellow */
+    1662px 1209px #f4a460,     /* Sandy Brown */
+    1896px 1224px #dcdcdc,     /* Gainsboro */
+    1580px 580px #e0ffff,     /* Light Cyan */
+    232px 1907px #b0e0e6,     /* Powder Blue */
+    576px 1635px #ffffff,     /* Bright White */
+    758px 1739px #add8e6,     /* Light Blue */
+    1695px 1000px #ff69b4,     /* Hot Pink */
+    1301px 213px #ffdead,     /* Navajo White */
+    1460px 1854px #f08080,     /* Light Coral */
+    1388px 968px #f0e68c,     /* Star Yellow */
+    853px 978px #f4a460,     /* Sandy Brown */
+    1365px 1775px #e0ffff,     /* Light Cyan */
+    2010px 2109px #b0e0e6, /* Powder Blue */
+    1197px 905px #ffffff, /* Bright White */
+    1884px 963px #add8e6; /* Light Blue */
 }
 
 #stars:after {
