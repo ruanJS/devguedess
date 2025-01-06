@@ -57,6 +57,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: var(--text-color);
+    overflow: hidden;
 }
 
 section {
@@ -67,15 +68,17 @@ section {
 /* Header Styles */
 .header {
     user-select: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
-    background: rgba(0, 0, 0, 0);
+    padding: 0.1rem 5%; 
+    background: rgba(0, 0, 0, 0.0); 
     display: flex;
     align-items: center;
     z-index: 100;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0); 
 }
 
 .header.sticky {
@@ -90,13 +93,17 @@ header .logo {
 }
 
 .navbar {
+    display: flex;
+    gap: 2rem; 
     margin-left: auto;
+    align-items: center;
 }
 
 .navbar a {
     font-size: 1.7rem;
+    font-weight: 100;
     color: var(--text-color);
-    margin-left: 5rem;
+    margin-left: 4rem;
     transition: color .3s;
 }
 
@@ -121,7 +128,7 @@ header .logo {
 }
 
 .home-img img {
-    width: 35vw; 
+    width: 25vw; 
     max-width: 500px; 
     border-radius: 50%; 
     object-fit: cover; 
@@ -142,7 +149,7 @@ header .logo {
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 span {
@@ -152,7 +159,7 @@ span {
 .home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;
-    margin: 1.3rem 0;
+    margin: 0.1rem 0;
 }
 
 .home-content p {
@@ -171,7 +178,7 @@ span {
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 2rem 1.5rem 3rem 0;
     transition: background .5s ease, color .5s ease;
 }
 
@@ -205,7 +212,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.0rem;
     background: var(--second-bg-color);
 }
 
@@ -251,16 +258,16 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem 2rem;
 }
 
 .services-box {
-    flex: 1 1 30rem;
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
+    flex: 1 1 20rem; 
+    padding: 2rem 1.5rem 3rem; 
+    border-radius: 1.5rem; 
     text-align: center;
-    border: .2rem solid var(--main-color);
-    transition: .5s ease;
+    border: 0.15rem solid var(--main-color); 
+    transition: 0.5s ease;
 }
 
 .services-box:hover {
@@ -389,8 +396,8 @@ span {
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    width: 20rem;
-    margin-bottom: 4rem;
+    width: 19rem;
+    margin-bottom: 2rem;
 }
 
 .language-card:hover {
@@ -524,6 +531,15 @@ span {
     }
 }
 
+@media (max-width: 1030px) {
+    header .logo { 
+        margin: -15px;
+    }
+    header .home-img-header {
+        margin: -10px;
+    }
+}
+
 @media (max-width: 617px) {
     html {
         font-size: 50%;
@@ -551,11 +567,17 @@ span {
     }
 }
 
+@media (max-width: 930px) {
+    html {
+        font-size: 45%;
+    }
+}
+
 /* Navbar and menu icon adjustments */
 @media (max-width: 780px) {
     #menuIcon {
-        display: block; /* Certifique-se de que o ícone do menu esteja visível */
-        margin-left: auto; /* Alinha o ícone do menu à direita */
+        display: block; 
+        margin-left: auto; 
     }
 
     .navbar {
@@ -620,32 +642,87 @@ span {
 /* Menu icon adjustments for specific breakpoints */
 @media (max-width: 776px) {
     #menuIcon {
-        margin-left: auto; /* Alinha o ícone do menu à direita */
+        margin-left: auto; 
     }
 }
 
 @media (max-width: 617px) {
     .portfolio-container {
-        grid-template-columns: 1fr; /* Altera para uma coluna em telas pequenas */
+        grid-template-columns: 1fr; 
     }
 
     .contact form .input-box input {
-        width: 100%; /* Mantém os campos do formulário com 100% de largura */
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .home-img-header {
+        margin: -10px;
+    }
+    header .logo { 
+        margin: -15px;
+    }
+    .navbar {
+        display: none; 
+    }
+    #menuIcon {
+        display: block; 
+        cursor: pointer;
     }
 }
 
 @media (max-width: 400px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 2%; 
+    }
+
+    header .logo { 
+        margin: -15px;
+    }
+
+    header .home-img-header {
+        margin: -10px;
+    }
+
+
+    #logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem; 
+    }
+
+    #logo img {
+        width: 40px; 
+        height: 40px;
+        border-radius: 50%; 
+    }
+
+    #logo span {
+        font-size: 1.4rem; 
+        color: white; 
+        white-space: nowrap; 
+    }
+
+    #menuIcon {
+        margin-left: auto; 
+    }
+
     .home-img img,
     .about-img img {
-        width: 90vw; /* Ajusta a largura das imagens para telas pequenas */
+        width: 90vw; 
     }
 
     .footer {
-        flex-direction: column-reverse; /* Alinha a footer em coluna em telas pequenas */
+        flex-direction: column-reverse; 
     }
 
     .footer-text p {
-        text-align: center; /* Centraliza o texto do footer */
+        text-align: center; 
         margin-top: 2rem;
     }
 }
+
