@@ -2,13 +2,34 @@
 <html lang="pt-br">
 
 <head>
+    <!-- SEO Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Ruan Guedes, desenvolvedor Fullstack. Conheça meus serviços, projetos e entre em contato para dar vida às suas ideias.">
+    <meta name="author" content="Ruan Guedes">
+    <meta name="keywords" content="desenvolvedor fullstack, portfolio, projetos de software, soluções digitais, Ruan Guedes, desenvolvimento web, UI/UX, desenvolvimento mobile">
+    <meta property="og:title" content="Portfolio - Ruan Guedes">
+    <meta property="og:description" content="Portfolio de Ruan Guedes, desenvolvedor Fullstack. Veja meus projetos e serviços!">
+    <meta property="og:image" content="./assets/icon_dg.png">
+    <meta property="og:url" content="https://devguedess.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio - Ruan Guedes">
+    <meta name="twitter:description" content="Conheça meus projetos e serviços como desenvolvedor Fullstack!">
+    <meta name="twitter:image" content="./assets/icon_dg.png">
+    <meta name="robots" content="index, follow">
+
     <title>Devguedes - Portfolio</title>
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/icon_dg.png" type="image/x-icon">
+
+    <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <meta name="description" content="Portfolio de Ruan Guedes, desenvolvedor Fullstack. Conheça meus serviços, projetos e entre em contato para dar vida às suas ideias.">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://devguedess.vercel.app/">
 </head>
 
 <body>
@@ -23,17 +44,17 @@
 
     <!-- Header section -->
     <header class="header">
-        <a href="/">
+        <a href="/" aria-label="Logo Dev Guedes">
             <div class="home-img-header">
-                <img src="./images/nft_devguedes.png" alt="Foto de perfil de Ruan Guedes" width="150" height="150">
+                <img src="./images/nft_devguedes.png" alt="Foto de perfil de Ruan Guedes" width="140" height="140">
             </div>
         </a>
         <a href="/" class="logo">Dev Guedes</a>
-        
+
         <i class='bx bx-menu' id="menuIcon" aria-label="Abrir menu"></i>
-        
+
         <nav class="navbar">
-            <a href="#home" class="logo">Home</a>
+            <a href="#home">Home</a>
             <a href="#about">Sobre</a>
             <a href="#services">Serviços</a>
             <a href="#projects">Projetos</a>
@@ -44,7 +65,6 @@
 
     <!-- Home section -->
     <section class="home" id="home">
-        <!-- Background stars effect -->
         <div class="star-space" id="stars-space" aria-hidden="true">
             <div id="stars1"></div>
             <div id="stars1"></div>
@@ -89,42 +109,48 @@
         <h2 class="heading-service">Meus <span>Serviços</span></h2>
 
         <div class="services-container">
-            <div class="services-box" data-delay="500">
-                <i class='bx bx-code-alt'></i>
-                <h3>Desenvolvimento Web</h3>
-                <p>Desenvolvimento de sites e aplicações web responsivas, otimizadas e seguras para SEO.</p>
-                <a href="#projects" class="btn">Veja mais</a>
-            </div>
-            <div class="services-box" data-delay="550">
-                <i class='bx bx-mobile-alt'></i>
-                <h3>Desenvolvimento Mobile</h3>
-                <p>Desenvolvimento de aplicativos mobile otimizados e bem estruturados para Android e iOS.</p>
-                <a href="#projects" class="btn">Veja mais</a>
-            </div>
-            <div class="services-box" data-delay="600">
-                <i class='bx bx-paint'></i>
-                <h3>UI/UX Design</h3>
-                <p>Design de interfaces de usuário intuitivas e atraentes para melhor experiência do usuário.</p>
-                <a href="#projects" class="btn">Veja mais</a>
-            </div>
-            <div class="services-box" data-delay="650">
-                <i class='bx bx-laptop'></i>
-                <h3>Consultoria em TI</h3>
-                <p>Consultoria em tecnologia da informação para pequenas e médias empresas.</p>
-                <a href="#projects" class="btn">Veja mais</a>
-            </div>
+
             <div class="services-box" data-delay="700">
                 <i class='bx bx-terminal' ></i>
                 <h3>Desenvolvimento Backend</h3>
                 <p>Desenvolvimento de APIs e sistemas robustos e escaláveis para atender às necessidades do seu negócio.</p>
                 <a href="#projects" class="btn">Veja mais</a>
             </div>
+
+            <div class="services-box" data-delay="550">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Desenvolvimento Mobile</h3>
+                <p>Desenvolvimento de aplicativos mobile otimizados e bem estruturados para Android e iOS.</p>
+                <a href="#projects" class="btn">Veja mais</a>
+            </div>
+
             <div class="services-box" data-delay="750">
                 <i class='bx bx-data'></i>
                 <h3>Desenvolvimento de Banco de Dados</h3>
                 <p>Desenvolvimento de bancos de dados eficientes e seguros para armazenar e gerenciar dados de forma eficaz.</p>
                 <a href="#projects" class="btn">Veja mais</a>
             </div>
+
+            <div class="services-box" data-delay="500">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Desenvolvimento de sites e aplicações web responsivas, otimizadas e seguras para SEO.</p>
+                <a href="#projects" class="btn">Veja mais</a>
+            </div>
+            
+            <div class="services-box" data-delay="600">
+                <i class='bx bx-paint'></i>
+                <h3>UI/UX Design</h3>
+                <p>Design de interfaces de usuário intuitivas e atraentes para melhor experiência do usuário.</p>
+                <a href="#projects" class="btn">Veja mais</a>
+            </div>
+
+            <div class="services-box" data-delay="650">
+                <i class='bx bx-laptop'></i>
+                <h3>Consultoria em TI</h3>
+                <p>Consultoria em tecnologia da informação para pequenas e médias empresas.</p>
+                <a href="#projects" class="btn">Veja mais</a>
+            </div>  
     </section>
 
     <!-- Portfolio section -->
