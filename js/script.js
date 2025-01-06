@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Inicialização do Typed.js
     const typed = new Typed('.multiple-text', {
-        strings: ['Fullstack Developer!', 'Web Designer!', 'Frontend Developer', 'Backend Developer', 'Designer UI and UX!'],
+        strings: ['Fullstack!', 'Web Designer!', 'Frontend', 'Backend', 'Designer UI and UX!'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
